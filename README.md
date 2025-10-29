@@ -88,7 +88,7 @@
 
 # 🌐 Web Portfolio
 If you’d like to view the full styled CV webpage version, open:  
-👉 **[Win Moe Professional CV (HTML Version)](https://github.com/yourusername/yourcvrepo)**  
+👉 **[Win Moe Professional CV (HTML Version)]( https://winmoe0.github.io/winmoe/)**  
 (Replace with your actual GitHub Pages link once you deploy.)
 
 ---
