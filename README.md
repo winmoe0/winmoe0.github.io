@@ -10,6 +10,12 @@
   <div style="margin-left:30px;">
     <h1 style="margin:0; font-size:2.5em; font-weight:700; background:linear-gradient(90deg,#ffe066,#ff6b6b); -webkit-background-clip:text; -webkit-text-fill-color:transparent;">Win Moe</h1>
     <h3 style="margin-top:8px; font-weight:500; color:#e0f7fa;">English Teacher</h3>
+  </div>
+</div>
+
+---
+
+<div style="display:flex; flex-wrap:wrap; font-family:'Poppins',sans-serif;">
 
 <!-- SIDEBAR -->
 <div style="flex:1; min-width:250px; background:#f1f7fa; padding:25px; border-right:1px solid #e0e0e0; line-height:1.6;">
