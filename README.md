@@ -1,5 +1,4 @@
-<!-- HEADER -->
-<div style="display:flex; align-items:center; justify-content:flex-start; background:linear-gradient(135deg,#0077b6,#00b4d8); padding:40px; border-radius:16px; color:white; font-family:'Poppins',sans-serif;">
+<div style="display:flex; align-items:center; justify-content:flex-start; background:linear-gradient(135deg,#0077b6,#00b4d8); padding:40px; border-radius:16px; color:white; font-family:'Poppins',sans-serif; margin-bottom:20px;">
   
   <!-- Photo -->
   <div style="flex-shrink:0;">
@@ -12,8 +11,6 @@
     <h3 style="margin-top:8px; font-weight:500; color:#e0f7fa;">English Teacher</h3>
   </div>
 </div>
-
----
 
 <div style="display:flex; flex-wrap:wrap; font-family:'Poppins',sans-serif;">
 
@@ -126,7 +123,6 @@
   <p style="color:#777; margin:3px 0;">2018</p>
 </div>
 
-<!-- LinkedIn as separate heading -->
 <h3 style="color:#0077b6; border-bottom:3px solid #00b4d8;">🔗 LinkedIn</h3>
 <div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:10px 16px; margin-bottom:20px; border-radius:6px;">
   <p style="color:#0077b6; margin:5px 0;">
