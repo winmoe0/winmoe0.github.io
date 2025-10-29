@@ -45,7 +45,7 @@
 * Mastering E-Learning Designs for Modern Educators (2025)  
 * Stress Management and Self-Care (2025)  
 * Localization in Humanitarian Aid (2025)  
-* Financial Literacy  
+* Financial Literacy (2018)
 
 ---
 
