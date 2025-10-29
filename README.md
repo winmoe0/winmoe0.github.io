@@ -64,7 +64,7 @@
   <li>Mastering E-Learning Designs for Modern Educators (2025)</li>
   <li>Stress Management and Self-Care (2025)</li>
   <li>Localization in Humanitarian Aid (2025)</li>
-  <li>Financial Literacy</li>
+  <li>Financial Literacy (2018)</li>
 </ul>
 
 </div>
@@ -107,8 +107,8 @@
 <h3 style="color:#0077b6; border-bottom:3px solid #00b4d8;">🎓 Education</h3>
 
 <div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:10px 16px; margin-bottom:10px; border-radius:6px;">
-  <h4 style="margin:0;">Payap University (English Communication Arts)</h4>
-  <p style="color:#777; margin:3px 0;">2nd Year, 2024–2025</p>
+  <h4 style="margin:0;">Payap University (Bachelor of Arts in English Communication)</h4>
+  <p style="color:#777; margin:3px 0;">2nd Year, 2024–present</p>
 </div>
 
 <div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:10px 16px; margin-bottom:10px; border-radius:6px;">
