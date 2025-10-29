@@ -1,15 +1,28 @@
-<div align="center" style="background: linear-gradient(135deg, #0077b6, #00b4d8); padding:40px 20px; border-radius:16px; color:white; font-family:'Poppins',sans-serif;">
-  <img src="wmcvphoto.jpg" alt="Win Moe" width="150" style="border-radius:20px; border:4px solid #fff; box-shadow:0 8px 25px rgba(0,0,0,0.2); margin-bottom:15px;">
-  <h1 style="margin:10px 0 5px; font-size:2.5em; font-weight:700; background:linear-gradient(90deg,#ffe066,#ff6b6b); -webkit-background-clip:text; -webkit-text-fill-color:transparent;">Win Moe</h1>
-  <h3 style="font-weight:400; color:#e0f7fa;">English Teacher</h3>
-  <p>📞 0924854332 | 09772518980 &nbsp; • &nbsp; 📧 <a href="mailto:minwinmoe123@gmail.com" style="color:#fff;">minwinmoe123@gmail.com</a> &nbsp; • &nbsp; 📍 Chiang Mai, Thailand</p>
+<!-- HEADER -->
+<div style="display:flex; align-items:center; justify-content:flex-start; background:linear-gradient(135deg,#0077b6,#00b4d8); padding:40px; border-radius:16px; color:white; font-family:'Poppins',sans-serif;">
+  
+  <!-- Photo -->
+  <div style="flex-shrink:0;">
+    <img src="wmcvphoto.jpg" alt="Win Moe Photo" width="150" style="border-radius:20px; border:4px solid #fff; box-shadow:0 8px 25px rgba(0,0,0,0.2);">
+  </div>
+
+  <!-- Name and Title -->
+  <div style="margin-left:30px;">
+    <h1 style="margin:0; font-size:2.5em; font-weight:700; background:linear-gradient(90deg,#ffe066,#ff6b6b); -webkit-background-clip:text; -webkit-text-fill-color:transparent;">Win Moe</h1>
+    <h3 style="margin-top:8px; font-weight:500; color:#e0f7fa;">English Teacher</h3>
+    <p style="color:#f1f1f1; margin-top:10px;">
+      📞 0924854332 | 09772518980 <br>
+      📧 <a href="mailto:minwinmoe123@gmail.com" style="color:#fff;">minwinmoe123@gmail.com</a> <br>
+      📍 Chiang Mai, Thailand
+    </p>
+  </div>
 </div>
 
 ---
 
 <div style="display:flex; flex-wrap:wrap; font-family:'Poppins',sans-serif;">
 
-<!-- Sidebar -->
+<!-- SIDEBAR -->
 <div style="flex:1; min-width:250px; background:#f1f7fa; padding:25px; border-right:1px solid #e0e0e0;">
 
 <h3 style="color:#0077b6; border-bottom:2px solid #0077b6;">📇 Contact</h3>
@@ -61,7 +74,7 @@
 
 </div>
 
-<!-- Main Content -->
+<!-- MAIN CONTENT -->
 <div style="flex:2; min-width:300px; padding:30px 40px;">
 
 <h3 style="color:#0077b6; border-bottom:3px solid #00b4d8;">🎯 Career Objective</h3>
