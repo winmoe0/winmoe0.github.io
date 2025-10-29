@@ -108,12 +108,12 @@
 
 <div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:10px 16px; margin-bottom:10px; border-radius:6px;">
   <h4 style="margin:0;">Payap University (Bachelor of Arts in English Communication)</h4>
-  <p style="color:#777; margin:3px 0;">2nd Year, 2024–Present</p>
+  <p style="color:#777; margin:3px 0;">2nd Year, 2024–Present (Expected Graduation-2027)</p>
 </div>
 
 <div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:10px 16px; margin-bottom:10px; border-radius:6px;">
   <h4 style="margin:0;">Mon National College, Ye Township, Myanmar (Associate Degree in Teaching)</h4>
-  <p style="color:#777; margin:3px 0;">2022–2024</p>
+  <p style="color:#777; margin:3px 0;">Graduated, 2022–2024</p>
 </div>
 
 <div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:10px 16px; margin-bottom:10px; border-radius:6px;">
