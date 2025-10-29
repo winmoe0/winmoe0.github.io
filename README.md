@@ -10,7 +10,7 @@
   <div style="margin-left:30px;">
     <h1 style="margin:0; font-size:2.5em; font-weight:700; background:linear-gradient(90deg,#ffe066,#ff6b6b); -webkit-background-clip:text; -webkit-text-fill-color:transparent;">Win Moe</h1>
     <h3 style="margin-top:8px; font-weight:500; color:#e0f7fa;">English Teacher</h3>
-    <p style="color:#f1f1f1; margin-top:10px;">
+    <p style="color:#f1f1f1; margin-top:10px; line-height:1.6;">
       📞 0924854332 | 09772518980 <br>
       📧 <a href="mailto:minwinmoe123@gmail.com" style="color:#fff;">minwinmoe123@gmail.com</a> <br>
       📍 Chiang Mai, Thailand
@@ -82,28 +82,28 @@
 
 <h3 style="color:#0077b6; border-bottom:3px solid #00b4d8;">💼 Work Experience</h3>
 
-<div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:15px 20px; margin-bottom:20px; border-radius:8px;">
-  <h4>English Teacher</h4>
-  <p style="color:#777;">Mon National Primary School, Ye — 2023–2024</p>
-  <ul>
+<div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:12px 18px; margin-bottom:12px; border-radius:8px;">
+  <h4 style="margin:0;">English Teacher</h4>
+  <p style="color:#777; margin:2px 0 6px;">Mon National Primary School, Ye — 2023–2024</p>
+  <ul style="margin:0;">
     <li>Improved English proficiency in writing, reading, listening, and speaking.</li>
     <li>Used creative and student-centered teaching methods.</li>
   </ul>
 </div>
 
-<div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:15px 20px; margin-bottom:20px; border-radius:8px;">
-  <h4>Content Creator</h4>
-  <p style="color:#777;">Online Platforms — 2019–2025</p>
-  <ul>
+<div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:12px 18px; margin-bottom:12px; border-radius:8px;">
+  <h4 style="margin:0;">Content Creator</h4>
+  <p style="color:#777; margin:2px 0 6px;">Online Platforms — 2019–2025</p>
+  <ul style="margin:0;">
     <li>Produced educational English videos for diverse audiences.</li>
     <li>Built supportive online learning communities.</li>
   </ul>
 </div>
 
-<div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:15px 20px; border-radius:8px;">
-  <h4>Online English Tutor</h4>
-  <p style="color:#777;">Zoom (Poy English for All Learners) — 2019–2025</p>
-  <ul>
+<div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:12px 18px; margin-bottom:12px; border-radius:8px;">
+  <h4 style="margin:0;">Online English Tutor</h4>
+  <p style="color:#777; margin:2px 0 6px;">Zoom (Poy English for All Learners) — 2019–2025</p>
+  <ul style="margin:0;">
     <li>Delivered engaging online lessons with interactive activities.</li>
     <li>Guided learners in pronunciation, writing, and communication.</li>
   </ul>
@@ -111,24 +111,24 @@
 
 <h3 style="color:#0077b6; border-bottom:3px solid #00b4d8;">🎓 Education</h3>
 
-<div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:15px 20px; margin-bottom:20px; border-radius:8px;">
-  <h4>Payap University (English Communication Arts)</h4>
-  <p style="color:#777;">2nd Year, 2024–2025</p>
+<div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:12px 18px; margin-bottom:12px; border-radius:8px;">
+  <h4 style="margin:0;">Payap University (English Communication Arts)</h4>
+  <p style="color:#777; margin:2px 0;">2nd Year, 2024–2025</p>
 </div>
 
-<div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:15px 20px; margin-bottom:20px; border-radius:8px;">
-  <h4>Mon National College (Associate Degree in Teaching)</h4>
-  <p style="color:#777;">2022–2024</p>
+<div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:12px 18px; margin-bottom:12px; border-radius:8px;">
+  <h4 style="margin:0;">Mon National College (Associate Degree in Teaching)</h4>
+  <p style="color:#777; margin:2px 0;">2022–2024</p>
 </div>
 
-<div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:15px 20px; margin-bottom:20px; border-radius:8px;">
-  <h4>Hpa-An University (Mathematics)</h4>
-  <p style="color:#777;">2nd Year, 2019–2020</p>
+<div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:12px 18px; margin-bottom:12px; border-radius:8px;">
+  <h4 style="margin:0;">Hpa-An University (Mathematics)</h4>
+  <p style="color:#777; margin:2px 0;">2nd Year, 2019–2020</p>
 </div>
 
-<div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:15px 20px; border-radius:8px;">
-  <h4>Mon Intensive English Program</h4>
-  <p style="color:#777;">2018</p>
+<div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:12px 18px; margin-bottom:12px; border-radius:8px;">
+  <h4 style="margin:0;">Mon Intensive English Program</h4>
+  <p style="color:#777; margin:2px 0;">2018</p>
 </div>
 
 </div>
@@ -137,7 +137,7 @@
 ---
 
 <div align="center" style="margin-top:40px;">
-  <p style="font-size:1.1em; color:#0077b6; font-family:'Poppins',sans-serif;">
+  <p style="font-size:1.05em; color:#0077b6; font-family:'Poppins',sans-serif;">
     “Teaching is not just about delivering lessons — it’s about inspiring curiosity, confidence, and compassion.”
   </p>
   <strong>— Win Moe</strong>
