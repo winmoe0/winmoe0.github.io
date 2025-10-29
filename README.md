@@ -1,4 +1,4 @@
-<img src="http://winmoe0.github.io/img/wmcvphoto.jpg" alt="RPB Photo" align="right" width="30%"/>
+<img src="http://winmoe0.github.io/img/wmcvphoto.jpg" alt="wmcvphoto" align="right" width="30%"/>
 
 # _Win Moe_
 > _Payap University Student_<br />
