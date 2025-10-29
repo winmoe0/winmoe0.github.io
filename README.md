@@ -18,11 +18,11 @@
 <div style="display:flex; flex-wrap:wrap; font-family:'Poppins',sans-serif;">
 
 <!-- SIDEBAR -->
-<div style="flex:1; min-width:250px; background:#f1f7fa; padding:25px; border-right:1px solid #e0e0e0; line-height:1.6;">
+<div style="flex:1; min-width:250px; background:#f1f7fa; padding:25px; border-right:1px solid #e0e0e0; line-height:1.5;">
 
 <h3 style="color:#0077b6; border-bottom:2px solid #0077b6;">📇 Contact</h3>
 <p><b>Phone:</b> 0924854332, 09772518980</p>
-<p><b>Email:</b> <a href="mailto:minwinmoe123@gmail.com" style="color:#0077b6;">minwinmoe123@gmail.com</a></p>
+<p><b>Email:</b> <a href="mailto:minwinmoe123@gmail.com" style="color:#0077b6; text-decoration:none;">minwinmoe123@gmail.com</a></p>
 <p><b>Address:</b> Chiang Mai, Thailand</p>
 
 <h3 style="color:#0077b6; border-bottom:2px solid #0077b6;">👤 Personal Info</h3>
@@ -126,17 +126,6 @@
   <p style="color:#777; margin:3px 0;">2018</p>
 </div>
 
-</div>
-</div>
-
----
-
-<div align="center" style="margin-top:40px;">
-  <p style="font-size:1.05em; color:#0077b6; font-family:'Poppins',sans-serif;">
-    “Teaching is not just about delivering lessons — it’s about inspiring curiosity, confidence, and compassion.”
-  </p>
-  <strong>— Win Moe</strong>
-</div>
 <!-- LinkedIn -->
 <div style="margin-top:20px; padding:10px 16px; background:#f9fbfc; border-left:4px solid #0077b6; border-radius:6px;">
   <h4 style="margin:0;">LinkedIn</h4>
@@ -147,3 +136,14 @@
   </p>
 </div>
 
+</div>
+</div>
+
+---
+
+<div align="center" style="margin-top:40px; max-width:700px; margin-left:auto; margin-right:auto;">
+  <p style="font-size:1.05em; color:#0077b6; font-family:'Poppins',sans-serif;">
+    “Teaching is not just about delivering lessons — it’s about inspiring curiosity, confidence, and compassion.”
+  </p>
+  <strong>— Win Moe</strong>
+</div>
