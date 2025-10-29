@@ -126,9 +126,9 @@
   <p style="color:#777; margin:3px 0;">2018</p>
 </div>
 
-<!-- LinkedIn -->
-<div style="margin-top:20px; padding:10px 16px; background:#f9fbfc; border-left:4px solid #0077b6; border-radius:6px;">
-  <h4 style="margin:0;">LinkedIn</h4>
+<!-- LinkedIn as separate heading -->
+<h3 style="color:#0077b6; border-bottom:3px solid #00b4d8;">🔗 LinkedIn</h3>
+<div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:10px 16px; margin-bottom:20px; border-radius:6px;">
   <p style="color:#0077b6; margin:5px 0;">
     <a href="https://www.linkedin.com/in/win-moe-73b006395" target="_blank" style="color:#0077b6; text-decoration:none;">
       www.linkedin.com/in/win-moe-73b006395
