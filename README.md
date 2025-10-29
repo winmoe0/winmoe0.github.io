@@ -88,7 +88,7 @@
 
 <div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:10px 16px; margin-bottom:12px; border-radius:6px;">
   <h4 style="margin:0;">Content Creator</h4>
-  <p style="color:#777; margin:2px 0 6px;">Online Platforms — 2019–2025</p>
+  <p style="color:#777; margin:2px 0 6px;">Online Platforms (2019–Present)</p>
   <ul style="margin:0; padding-left:18px;">
     <li>Produced educational English videos for diverse audiences.</li>
     <li>Built supportive online learning communities.</li>
@@ -97,7 +97,7 @@
 
 <div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:10px 16px; margin-bottom:12px; border-radius:6px;">
   <h4 style="margin:0;">Online English Tutor</h4>
-  <p style="color:#777; margin:2px 0 6px;">Zoom (Poy English for All Learners) — 2019–2025</p>
+  <p style="color:#777; margin:2px 0 6px;">Poy English For All Learners Online Program (2019–2025)</p>
   <ul style="margin:0; padding-left:18px;">
     <li>Delivered engaging online lessons with interactive activities.</li>
     <li>Guided learners in pronunciation, writing, and communication.</li>
@@ -108,7 +108,7 @@
 
 <div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:10px 16px; margin-bottom:10px; border-radius:6px;">
   <h4 style="margin:0;">Payap University (Bachelor of Arts in English Communication)</h4>
-  <p style="color:#777; margin:3px 0;">2nd Year, 2024–present</p>
+  <p style="color:#777; margin:3px 0;">2nd Year, 2024–Present</p>
 </div>
 
 <div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:10px 16px; margin-bottom:10px; border-radius:6px;">
