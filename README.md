@@ -79,7 +79,7 @@
 
 <div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:10px 16px; margin-bottom:12px; border-radius:6px;">
   <h4 style="margin:0;">English Teacher</h4>
-  <p style="color:#777; margin:2px 0 6px;">Mon National Primary School, Ye — 2023–2024</p>
+  <p style="color:#777; margin:2px 0 6px;">Mon National Primary School, Ye Township, Myanmar (2023–2024)</p>
   <ul style="margin:0; padding-left:18px;">
     <li>Improved English proficiency in writing, reading, listening, and speaking.</li>
     <li>Used creative and student-centered teaching methods.</li>
@@ -112,17 +112,17 @@
 </div>
 
 <div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:10px 16px; margin-bottom:10px; border-radius:6px;">
-  <h4 style="margin:0;">Mon National College (Associate Degree in Teaching)</h4>
+  <h4 style="margin:0;">Mon National College, Ye Township, Myanamr (Associate Degree in Teaching)</h4>
   <p style="color:#777; margin:3px 0;">2022–2024</p>
 </div>
 
 <div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:10px 16px; margin-bottom:10px; border-radius:6px;">
-  <h4 style="margin:0;">Hpa-An University (Mathematics)</h4>
+  <h4 style="margin:0;">Hpa-An University, Kayin State, Myanmar (Mathematics)</h4>
   <p style="color:#777; margin:3px 0;">2nd Year, 2019–2020</p>
 </div>
 
 <div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:10px 16px; margin-bottom:10px; border-radius:6px;">
-  <h4 style="margin:0;">Mon Intensive English Program</h4>
+  <h4 style="margin:0;">Mon Intensive English Program, Mawlamyine, Mon State, Myanmar</h4>
   <p style="color:#777; margin:3px 0;">2018</p>
 </div>
 
