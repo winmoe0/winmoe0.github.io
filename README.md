@@ -1,7 +1,7 @@
 <img src="wmcvphoto.jpg" alt="Win Moe Photo" align="right" width="30%"/>
 
 # _Win Moe_
-> _English Educator & Content Creator_<br />
+> _English Teacher & Content Creator_<br />
 > Payap University (English Communication Arts)<br />
 > Chiang Mai, Thailand<br />
 
@@ -81,8 +81,8 @@
 * **Phone:** 0924854332, 09772518980  
 * **Email:** [minwinmoe123@gmail.com](mailto:minwinmoe123@gmail.com)  
 * **Location:** Chiang Mai, Thailand  
-* **LinkedIn:** (Add your LinkedIn link here if available)  
-* **GitHub:** (Add your GitHub profile link here if available)  
+* **LinkedIn:** (www.linkedin.com/in/win-moe-73b006395)  
+* **Facebook:** (https://www.facebook.com/winmoe.wmwm)  
 
 ---
 
