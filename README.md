@@ -137,3 +137,13 @@
   </p>
   <strong>— Win Moe</strong>
 </div>
+<!-- LinkedIn -->
+<div style="margin-top:20px; padding:10px 16px; background:#f9fbfc; border-left:4px solid #0077b6; border-radius:6px;">
+  <h4 style="margin:0;">LinkedIn</h4>
+  <p style="color:#0077b6; margin:5px 0;">
+    <a href="https://www.linkedin.com/in/win-moe-73b006395" target="_blank" style="color:#0077b6; text-decoration:none;">
+      www.linkedin.com/in/win-moe-73b006395
+    </a>
+  </p>
+</div>
+
