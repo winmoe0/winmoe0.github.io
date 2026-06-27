@@ -80,7 +80,7 @@
       <ul style="padding-left:20px; margin: 0;">
         <li style="margin: 6px 0;">TEFL/TESOL (2026)</li>
         <li style="margin: 6px 0;">Teaching English to Young Learners (2026)</li>
-        <li style="margin: 6px 0;">Multiple Teaching Certificate</li>
+        <li style="margin: 6px 0;">Multiple Teaching Certificates</li>
         <li style="margin: 6px 0;">English Four Skills (2018)</li>
         <li style="margin: 6px 0;">Social Science</li>
         <li style="margin: 6px 0;">I-Office Computer (2019)</li>
@@ -131,21 +131,21 @@
 
       <div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:12px 16px; margin: 15px 0; border-radius:6px;">
         <h4 style="margin:0; font-size: 1.1em;">Payap University (Bachelor of Arts in English Communication)</h4>
-        <p style="color:#666; margin:4px 0 0 0; font-size: 0.9em;">3nd Year, 2024–Present (Expected Graduation - 2027)</p>
+        <p style="color:#666; margin:4px 0 0 0; font-size: 0.9em;">3rd Year, 2024–Present (Expected Graduation - 2027)</p>
       </div>
 
       <div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:12px 16px; margin: 15px 0; border-radius:6px;">
-        <h4 style="margin:0; font-size: 1.1em;">Mon National College, Ye Township, Myanmar (Associate Degree in Teaching)</h4>
-        <p style="color:#666; margin:4px 0 0 0; font-size: 0.9em;">Graduated, 2022–2024</p>
+        <h4 style="margin:0; font-size: 1.1em;">Associate Degree in Education in Teaching, Mon National College, Myanmar</h4>
+        <p style="color:#666; margin:4px 0 0 0; font-size: 0.9em;">2022–2024</p>
       </div>
 
       <div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:12px 16px; margin: 15px 0; border-radius:6px;">
-        <h4 style="margin:0; font-size: 1.1em;">Hpa-An University, Kayin State, Myanmar (Mathematics)</h4>
+        <h4 style="margin:0; font-size: 1.1em;">Mathematics, Hpa-An University, Myanmar</h4>
         <p style="color:#666; margin:4px 0 0 0; font-size: 0.9em;">2nd Year, 2019–2020</p>
       </div>
 
       <div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:12px 16px; margin: 15px 0 30px 0; border-radius:6px;">
-        <h4 style="margin:0; font-size: 1.1em;">Mon Intensive English Program, Mawlamyine, Mon State, Myanmar</h4>
+        <h4 style="margin:0; font-size: 1.1em;"> English Four Skills, Dahrah Learning Center, Mawlamyine, Myanmar</h4>
         <p style="color:#666; margin:4px 0 0 0; font-size: 0.9em;">2018-2019</p>
       </div>
 
