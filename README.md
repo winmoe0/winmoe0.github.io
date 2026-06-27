@@ -52,9 +52,8 @@
       <ul style="list-style:none; padding:0; margin: 0;">
         <li style="margin: 8px 0;"><b>Gender:</b> Male</li>
         <li style="margin: 8px 0;"><b>Age:</b> 28</li>
-        <li style="margin: 8px 0;"><b>Nationality:</b> Myanmar (Native - Mon)</li>
+        <li style="margin: 8px 0;"><b>Nationality:</b> Myanmar</li>
         <li style="margin: 8px 0;"><b>Marital Status:</b> Single</li>
-        <li style="margin: 8px 0;"><b>Height/Weight:</b> 172 cm / 57 kg</li>
       </ul>
 
       <h3 style="color:#0077b6; border-bottom:2px solid #0077b6; margin-top: 30px; padding-bottom: 5px;">🌐 Languages</h3>
@@ -120,8 +119,8 @@
       </div>
 
       <div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:12px 16px; margin: 15px 0 30px 0; border-radius:6px;">
-        <h4 style="margin:0; font-size: 1.1em;">Online English Tutor</h4>
-        <p style="color:#666; margin:4px 0 8px; font-size: 0.9em;">Poy English For All Learners Online Program (2019–2025)</p>
+        <h4 style="margin:0; font-size: 1.1em;">Online English Instructor</h4>
+        <p style="color:#666; margin:4px 0 8px; font-size: 0.9em;">Poy English Program (2019–2025)</p>
         <ul style="margin:0; padding-left:18px; color: #444;">
           <li>Delivered engaging online lessons with interactive activities.</li>
           <li>Guided learners in pronunciation, writing, and communication.</li>
@@ -132,7 +131,7 @@
 
       <div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:12px 16px; margin: 15px 0; border-radius:6px;">
         <h4 style="margin:0; font-size: 1.1em;">Payap University (Bachelor of Arts in English Communication)</h4>
-        <p style="color:#666; margin:4px 0 0 0; font-size: 0.9em;">2nd Year, 2024–Present (Expected Graduation - 2027)</p>
+        <p style="color:#666; margin:4px 0 0 0; font-size: 0.9em;">3nd Year, 2024–Present (Expected Graduation - 2027)</p>
       </div>
 
       <div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:12px 16px; margin: 15px 0; border-radius:6px;">
@@ -147,7 +146,12 @@
 
       <div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:12px 16px; margin: 15px 0 30px 0; border-radius:6px;">
         <h4 style="margin:0; font-size: 1.1em;">Mon Intensive English Program, Mawlamyine, Mon State, Myanmar</h4>
-        <p style="color:#666; margin:4px 0 0 0; font-size: 0.9em;">2018</p>
+        <p style="color:#666; margin:4px 0 0 0; font-size: 0.9em;">2018-2019</p>
+      </div>
+
+      <div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:12px 16px; margin: 15px 0 30px 0; border-radius:6px;">
+        <h4 style="margin:0; font-size: 1.1em;">Diploma in Social Sciences, National University of Zoland, Myanmar </h4>
+        <p style="color:#666; margin:4px 0 0 0; font-size: 0.9em;">2025-present (Expected Graduation - July, 2026)</p>
       </div>
 
       <h3 style="color:#0077b6; border-bottom:3px solid #00b4d8; padding-bottom: 5px; margin-top: 0;">🔗 LinkedIn</h3>
