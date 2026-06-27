@@ -91,6 +91,14 @@
         <li style="margin: 6px 0;">Localization in Humanitarian Aid (2025)</li>
         <li style="margin: 6px 0;">Financial Literacy (2018)</li>
       </ul>
+
+      <h3 style="color:#0077b6; border-bottom:2px solid #0077b6; margin-top: 30px; padding-bottom: 5px;">🤝 Volunteer Experience</h3>
+      <ul style="padding-left:20px; margin: 0;">
+        <li style="margin: 6px 0;"><b>Volunteer English Teacher:</b> Dahrah Learning Center, Myanmar (2024) </li>
+        <li style="margin: 6px 0;">Volunteer in Content Creating and Presenting in English, Payap University, Chiang Mai, Thailand (2025)</li>
+        <li style="margin: 6px 0;">Volunteer in Teaching English Four Skills, Poy English Program, Myanamr (2025) </li>
+        <li style="margin: 6px 0;">volunteer in Sharing and Commmunicationg with Thai Learners, International College, Payap University, Thailand (2024)</li>
+      </ul>
     </div>
 
     <div style="flex:2; min-width:300px; padding:30px 40px; line-height:1.6;">
