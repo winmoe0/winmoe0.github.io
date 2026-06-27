@@ -53,11 +53,11 @@
 
 <h3 style="color:#0077b6; border-bottom:2px solid #0077b6;">🏆 Certificates</h3>
 <ul>
-<li>TEFL/TESOL(2026)<li>
-<li>Teaching English to Young Learners(2026)<li>
-<li>Multiple Teaching Certificate<li>
+<li>TEFL/TESOL(2026)</li>
+<li>Teaching English to Young Learners(2026)</li>
+<li>Multiple Teaching Certificate</li>
 <li>English Four Skill (2018)</li>
-<Li>Social Science<li>
+<li>Social Science</li>
   <li>I-Office Computer (2019)</li>
   <li>Google Digital Marketing and E-Commerce (2025)</li>
   <li>Career Advancement (2024)</li>
