@@ -95,9 +95,9 @@
       <h3 style="color:#0077b6; border-bottom:2px solid #0077b6; margin-top: 30px; padding-bottom: 5px;">🤝 Volunteer Experience</h3>
       <ul style="padding-left:20px; margin: 0;">
         <li style="margin: 6px 0;"><b>Volunteer English Teacher:</b> Dahrah Learning Center, Myanmar (2024) </li>
-        <li style="margin: 6px 0;">Volunteer in Content Creating and Presenting in English, Payap University, Chiang Mai, Thailand (2025)</li>
-        <li style="margin: 6px 0;">Volunteer in Teaching English Four Skills, Poy English Program, Myanamr (2025) </li>
-        <li style="margin: 6px 0;">Volunteer in Sharing and Commmunicating with Thai Learners, International College, Payap University, Thailand (2024)</li>
+        <li style="margin: 6px 0;"><b>Volunteer in Content Creating and Presenting in English:</b> Payap University, Chiang Mai, Thailand (2025)</li>
+        <li style="margin: 6px 0;"><b>Volunteer in Teaching English Four Skills:</b> Poy English Program, Myanamr (2025) </li>
+        <li style="margin: 6px 0;"><b>Volunteer in Sharing and Commmunicating with Thai Learners:</b>International College, Payap University, Thailand (2024)</li>
       </ul>
     </div>
 
