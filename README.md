@@ -97,7 +97,7 @@
         <li style="margin: 6px 0;"><b>Volunteer English Teacher:</b> Dahrah Learning Center, Myanmar (2024) </li>
         <li style="margin: 6px 0;">Volunteer in Content Creating and Presenting in English, Payap University, Chiang Mai, Thailand (2025)</li>
         <li style="margin: 6px 0;">Volunteer in Teaching English Four Skills, Poy English Program, Myanamr (2025) </li>
-        <li style="margin: 6px 0;">volunteer in Sharing and Commmunicationg with Thai Learners, International College, Payap University, Thailand (2024)</li>
+        <li style="margin: 6px 0;">Volunteer in Sharing and Commmunicating with Thai Learners, International College, Payap University, Thailand (2024)</li>
       </ul>
     </div>
 
