@@ -18,17 +18,16 @@
 <div style="flex:1; min-width:250px; background:#f1f7fa; padding:25px; border-right:1px solid #e0e0e0; line-height:1.5;">
 
 <h3 style="color:#0077b6; border-bottom:2px solid #0077b6;">📇 Contact</h3>
-<p><b>Phone:</b> 0924854332, 09772518980</p>
+<p><b>Phone:</b> 0924854332 </p>
 <p><b>Email:</b> <a href="mailto:minwinmoe123@gmail.com" style="color:#0077b6; text-decoration:none;">minwinmoe123@gmail.com</a></p>
 <p><b>Address:</b> Chiang Mai, Thailand</p>
 
 <h3 style="color:#0077b6; border-bottom:2px solid #0077b6;">👤 Personal Info</h3>
 <ul style="list-style:none; padding:0;">
   <li><b>Gender:</b> Male</li>
-  <li><b>DOB:</b> 15 Oct 1998</li>
+  <li><b>Age:</b> 28 </li>
   <li><b>Nationality:</b> Myanmar (Native - Mon)</li>
   <li><b>Marital Status:</b> Single</li>
-  <li><b>Passport:</b> MJ072280</li>
   <li><b>Height/Weight:</b> 172 cm / 57 kg</li>
 </ul>
 
