@@ -138,7 +138,7 @@
       <h3 style="color:#0077b6; border-bottom:3px solid #00b4d8; padding-bottom: 5px; margin-top: 0;">🎓 Education</h3>
 
       <div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:12px 16px; margin: 15px 0; border-radius:6px;">
-        <h4 style="margin:0; font-size: 1.1em;">Payap University (Bachelor of Arts in English Communication)</h4>
+        <h4 style="margin:0; font-size: 1.1em;">Bachelor of Arts in English Communication, Payap University</h4>
         <p style="color:#666; margin:4px 0 0 0; font-size: 0.9em;">3rd Year, 2024–Present (Expected Graduation - 2027)</p>
       </div>
 
