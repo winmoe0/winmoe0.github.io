@@ -1,140 +1,386 @@
-<div style="display:flex; align-items:center; justify-content:flex-start; background:linear-gradient(135deg,#0077b6,#00b4d8); padding:40px; border-radius:16px; color:white; font-family:'Poppins',sans-serif; margin-bottom:20px;">
-  
-  <!-- Photo -->
-  <div style="flex-shrink:0;">
-    <img src="wmcvphoto.jpg" alt="Win Moe Photo" width="150" style="border-radius:20px; border:4px solid #fff; box-shadow:0 8px 25px rgba(0,0,0,0.2);">
-  </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Win Moe - Professional CV</title>
 
-  <!-- Name and Title -->
-  <div style="margin-left:30px;">
-    <h1 style="margin:0; font-size:2.5em; font-weight:700; background:linear-gradient(90deg,#ffe066,#ff6b6b); -webkit-background-clip:text; -webkit-text-fill-color:transparent;">Win Moe</h1>
-    <h3 style="margin-top:8px; font-weight:500; color:#e0f7fa;">English Teacher</h3>
-  </div>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#eef4f8;
+    color:#333;
+    padding:30px;
+}
+
+.cv{
+    max-width:1100px;
+    margin:auto;
+    background:#fff;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 15px 40px rgba(0,0,0,.12);
+}
+
+/* Header */
+
+.header{
+    display:flex;
+    align-items:center;
+    padding:40px;
+    background:linear-gradient(135deg,#0077b6,#00b4d8);
+    color:white;
+}
+
+.header img{
+    width:160px;
+    height:160px;
+    object-fit:cover;
+    border-radius:20px;
+    border:5px solid white;
+}
+
+.header-text{
+    margin-left:35px;
+}
+
+.header-text h1{
+    font-size:46px;
+    background:linear-gradient(90deg,#ffe066,#ff6b6b);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.header-text h3{
+    margin-top:8px;
+    font-weight:400;
+}
+
+/* Layout */
+
+.container{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.sidebar{
+    width:32%;
+    background:#f4f9fc;
+    padding:30px;
+}
+
+.content{
+    width:68%;
+    padding:35px;
+}
+
+@media(max-width:850px){
+
+.sidebar,
+.content{
+    width:100%;
+}
+
+.header{
+    flex-direction:column;
+    text-align:center;
+}
+
+.header-text{
+    margin-left:0;
+    margin-top:20px;
+}
+}
+
+.section-title{
+    color:#0077b6;
+    border-bottom:3px solid #00b4d8;
+    padding-bottom:8px;
+    margin:25px 0 18px;
+    font-size:20px;
+}
+
+.sidebar .section-title{
+    border-bottom:2px solid #0077b6;
+}
+
+ul{
+    padding-left:20px;
+}
+
+li{
+    margin-bottom:8px;
+}
+
+.card{
+    background:#fafcfd;
+    border-left:5px solid #0077b6;
+    padding:18px;
+    margin-bottom:18px;
+    border-radius:8px;
+}
+
+.card h4{
+    margin-bottom:4px;
+}
+
+.card p{
+    color:#666;
+    margin-bottom:10px;
+}
+
+a{
+    color:#0077b6;
+    text-decoration:none;
+}
+
+.skills{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:8px;
+}
+
+.skills div{
+    background:white;
+    padding:8px;
+    border-radius:6px;
+    box-shadow:0 2px 8px rgba(0,0,0,.05);
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+table td{
+    padding:8px;
+    border-bottom:1px solid #eee;
+}
+
+.footer{
+    text-align:center;
+    padding:25px;
+    background:#f8fbfd;
+    color:#777;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="cv">
+
+<div class="header">
+
+<img src="wmcvphoto.jpg" alt="Win Moe">
+
+<div class="header-text">
+<h1>Win Moe</h1>
+<h3>English Teacher</h3>
 </div>
 
-<div style="display:flex; flex-wrap:wrap; font-family:'Poppins',sans-serif;">
+</div>
 
-<!-- SIDEBAR -->
-<div style="flex:1; min-width:250px; background:#f1f7fa; padding:25px; border-right:1px solid #e0e0e0; line-height:1.5;">
+<div class="container">
 
-<h3 style="color:#0077b6; border-bottom:2px solid #0077b6;">📇 Contact</h3>
-<p><b>Phone:</b> 0924854332 </p>
-<p><b>Email:</b> <a href="mailto:minwinmoe123@gmail.com" style="color:#0077b6; text-decoration:none;">minwinmoe123@gmail.com</a></p>
-<p><b>Address:</b> Chiang Mai, Thailand</p>
+<!-- Sidebar -->
 
-<h3 style="color:#0077b6; border-bottom:2px solid #0077b6;">👤 Personal Info</h3>
-<ul style="list-style:none; padding:0;">
-  <li><b>Gender:</b> Male</li>
-  <li><b>Age:</b> 28 </li>
-  <li><b>Nationality:</b> Myanmar (Native - Mon)</li>
-  <li><b>Marital Status:</b> Single</li>
-  <li><b>Height/Weight:</b> 172 cm / 57 kg</li>
-</ul>
+<div class="sidebar">
 
-<h3 style="color:#0077b6; border-bottom:2px solid #0077b6;">🌐 Languages</h3>
+<h3 class="section-title">Contact</h3>
+
+<p><b>Phone:</b> +66 XXXXXXXX</p>
+<p><b>Email:</b> minwinmoe123@gmail.com</p>
+<p><b>Location:</b> Chiang Mai, Thailand</p>
+<p><b>Nationality:</b> Myanmar</p>
+
+<h3 class="section-title">Languages</h3>
+
+<table>
+<tr><td>Mon</td><td>Native</td></tr>
+<tr><td>Burmese</td><td>Fluent</td></tr>
+<tr><td>English</td><td>Advanced (C1)</td></tr>
+<tr><td>Thai</td><td>Conversational</td></tr>
+</table>
+
+<h3 class="section-title">Teaching Expertise</h3>
+
 <ul>
-  <li>Mon (Native)</li>
-  <li>Burmese (Fluent)</li>
-  <li>English (Advanced)</li>
-  <li>Thai (Conversational)</li>
+<li>General English</li>
+<li>Grammar</li>
+<li>Speaking</li>
+<li>Pronunciation</li>
+<li>Reading</li>
+<li>Writing</li>
+<li>Vocabulary</li>
+<li>Young Learners</li>
+<li>Adults</li>
+<li>Online Teaching</li>
+<li>Lesson Planning</li>
+<li>Classroom Management</li>
 </ul>
 
-<h3 style="color:#0077b6; border-bottom:2px solid #0077b6;">⭐ Skills</h3>
+<h3 class="section-title">Digital Skills</h3>
+
+<div class="skills">
+<div>Microsoft Office</div>
+<div>Google Workspace</div>
+<div>Canva</div>
+<div>Zoom</div>
+<div>Google Meet</div>
+<div>Google Classroom</div>
+<div>Quizizz</div>
+<div>Kahoot!</div>
+<div>ChatGPT</div>
+<div>AI Lesson Planning</div>
+</div>
+
+<h3 class="section-title">Certificates</h3>
+
 <ul>
-  <li>Excellent Communication</li>
-  <li>Good Time Management</li>
-  <li>Flexibility</li>
-  <li>Self-Management</li>
-  <li>Presentation Skills</li>
-  <li>Adaptable & Friendly</li>
-  <li>Team Collaboration</li>
-  <li>Patient & Understanding</li>
+<li>TEFL/TESOL (2026)</li>
+<li>Teaching English to Young Learners (2026)</li>
+<li>Google Digital Marketing & E-Commerce</li>
+<li>Mastering E-learning Design</li>
+<li>Career Advancement</li>
+<li>Localization in Humanitarian Aid</li>
+<li>Stress Management & Self-Care</li>
+<li>I-Office Computer</li>
+<li>English Four Skills</li>
+<li>Financial Literacy</li>
 </ul>
 
-<h3 style="color:#0077b6; border-bottom:2px solid #0077b6;">🏆 Certificates</h3>
+</div>
+
+<!-- Main Content -->
+
+<div class="content">
+
+<h3 class="section-title">Professional Summary</h3>
+
+<p>
+Dedicated English teacher with over four years of teaching experience in classroom and online environments. Skilled in communicative language teaching, lesson planning, classroom management, and educational technology. Passionate about helping learners develop confidence and practical English communication through engaging, student-centered instruction.
+</p>
+
+<h3 class="section-title">Work Experience</h3>
+
+<div class="card">
+
+<h4>English Teacher</h4>
+
+<p>Mon National Primary School | 2023–2024</p>
+
 <ul>
-<li>TEFL/TESOL(2026)</li>
-<li>Teaching English to Young Learners(2026)</li>
-<li>Multiple Teaching Certificate</li>
-<li>English Four Skill (2018)</li>
-<li>Social Science</li>
-  <li>I-Office Computer (2019)</li>
-  <li>Google Digital Marketing and E-Commerce (2025)</li>
-  <li>Career Advancement (2024)</li>
-  <li>Mastering E-Learning Designs for Modern Educators (2025)</li>
-  <li>Stress Management and Self-Care (2025)</li>
-  <li>Localization in Humanitarian Aid (2025)</li>
-  <li>Financial Literacy (2018)</li>
+<li>Planned and delivered engaging English lessons.</li>
+<li>Improved students' reading, writing, listening and speaking skills.</li>
+<li>Applied communicative teaching methods.</li>
+<li>Created a positive and inclusive classroom environment.</li>
+
 </ul>
 
 </div>
 
-<!-- MAIN CONTENT -->
-<div style="flex:2; min-width:300px; padding:30px 40px; line-height:1.6;">
+<div class="card">
 
-<h3 style="color:#0077b6; border-bottom:3px solid #00b4d8;">🎯 Career Objective</h3>
-<p>Motivated and compassionate English educator with over four years of teaching experience, both onsite and online, committed to fostering an inclusive, engaging, and inspiring learning environment. Passionate about empowering students to achieve their full potential through interactive teaching methods, cultural awareness, and personalized guidance. Skilled in curriculum development, classroom management, and innovative instructional strategies that enhance language proficiency, critical thinking, and confidence. Dedicated to lifelong learning and continuous professional growth, with a strong desire to make a positive impact on students’ academic and personal development.</p>
+<h4>Online English Tutor</h4>
 
-<h3 style="color:#0077b6; border-bottom:3px solid #00b4d8;">💼 Work Experience</h3>
+<p>Poy English For All Learners | 2019–Present</p>
 
-<div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:10px 16px; margin-bottom:12px; border-radius:6px;">
-  <h4 style="margin:0;">English Teacher</h4>
-  <p style="color:#777; margin:2px 0 6px;">Mon National Primary School, Ye Township, Myanmar (2023–2024)</p>
-  <ul style="margin:0; padding-left:18px;">
-    <li>Improved English proficiency in writing, reading, listening, and speaking.</li>
-    <li>Used creative and student-centered teaching methods.</li>
-  </ul>
+<ul>
+<li>Taught children, teenagers and adults.</li>
+<li>Designed customized lesson plans.</li>
+<li>Conducted speaking, grammar, vocabulary and pronunciation lessons.</li>
+<li>Used Zoom, Google Meet and Canva for interactive learning.</li>
+
+</ul>
+
 </div>
 
-<div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:10px 16px; margin-bottom:12px; border-radius:6px;">
-  <h4 style="margin:0;">Content Creator</h4>
-  <p style="color:#777; margin:2px 0 6px;">Online Platforms (2019–Present)</p>
-  <ul style="margin:0; padding-left:18px;">
-    <li>Produced educational English videos for diverse audiences.</li>
-    <li>Built supportive online learning communities.</li>
-  </ul>
+<div class="card">
+
+<h4>Educational Content Creator</h4>
+
+<p>Online Platforms | 2019–Present</p>
+
+<ul>
+<li>Created English learning videos.</li>
+<li>Built online learning communities.</li>
+<li>Produced educational social media content.</li>
+
+</ul>
+
 </div>
 
-<div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:10px 16px; margin-bottom:12px; border-radius:6px;">
-  <h4 style="margin:0;">Online English Tutor</h4>
-  <p style="color:#777; margin:2px 0 6px;">Poy English For All Learners Online Program (2019–2025)</p>
-  <ul style="margin:0; padding-left:18px;">
-    <li>Delivered engaging online lessons with interactive activities.</li>
-    <li>Guided learners in pronunciation, writing, and communication.</li>
-  </ul>
+<h3 class="section-title">Education</h3>
+
+<div class="card">
+
+<h4>Bachelor of Arts in English Communication</h4>
+
+<p>Payap University</p>
+
+<p>Expected Graduation: 2027</p>
+
 </div>
 
-<h3 style="color:#0077b6; border-bottom:3px solid #00b4d8;">🎓 Education</h3>
+<div class="card">
 
-<div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:10px 16px; margin-bottom:10px; border-radius:6px;">
-  <h4 style="margin:0;">Payap University (Bachelor of Arts in English Communication)</h4>
-  <p style="color:#777; margin:3px 0;">2nd Year, 2024–Present (Expected Graduation-2027)</p>
+<h4>Associate Degree in Teaching</h4>
+
+<p>Mon National College</p>
+
+<p>Graduated (2024)</p>
+
 </div>
 
-<div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:10px 16px; margin-bottom:10px; border-radius:6px;">
-  <h4 style="margin:0;">Mon National College, Ye Township, Myanmar (Associate Degree in Teaching)</h4>
-  <p style="color:#777; margin:3px 0;">Graduated, 2022–2024</p>
+<div class="card">
+
+<h4>Mathematics</h4>
+
+<p>Hpa-An University</p>
+
+<p>Completed Second Year</p>
+
 </div>
 
-<div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:10px 16px; margin-bottom:10px; border-radius:6px;">
-  <h4 style="margin:0;">Hpa-An University, Kayin State, Myanmar (Mathematics)</h4>
-  <p style="color:#777; margin:3px 0;">2nd Year, 2019–2020</p>
+<h3 class="section-title">Achievements</h3>
+
+<ul>
+<li>Over four years of English teaching experience.</li>
+<li>Recipient of two academic scholarships.</li>
+<li>Completed numerous international professional development courses.</li>
+<li>Built an online English learning community.</li>
+</ul>
+
+<h3 class="section-title">LinkedIn</h3>
+
+<p>
+<a href="https://www.linkedin.com/in/win-moe-73b006395">
+linkedin.com/in/win-moe-73b006395
+</a>
+</p>
+
 </div>
 
-<div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:10px 16px; margin-bottom:10px; border-radius:6px;">
-  <h4 style="margin:0;">Mon Intensive English Program, Mawlamyine, Mon State, Myanmar</h4>
-  <p style="color:#777; margin:3px 0;">2018</p>
 </div>
 
-<h3 style="color:#0077b6; border-bottom:3px solid #00b4d8;">🔗 LinkedIn</h3>
-<div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:10px 16px; margin-bottom:20px; border-radius:6px;">
-  <p style="color:#0077b6; margin:5px 0;">
-    <a href="https://www.linkedin.com/in/win-moe-73b006395" target="_blank" style="color:#0077b6; text-decoration:none;">
-      www.linkedin.com/in/win-moe-73b006395
-    </a>
-  </p>
+<div class="footer">
+
+References available upon request.
+
 </div>
+
 </div>
 
 </body>
 </html>
+
