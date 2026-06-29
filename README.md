@@ -80,9 +80,15 @@
       <ul style="padding-left:20px; margin: 0;">
         <li style="margin: 6px 0;">TEFL/TESOL (2026)</li>
         <li style="margin: 6px 0;">Teaching English to Young Learners (2026)</li>
-        <li style="margin: 6px 0;">Multiple Teaching Certificates</li>
+        <li style="margin: 6px 0;">Teaching English to Refugee and Dispalced Learners</li>
+        <li style="margin: 6px 0;">Teaching English: How to Teach Pronunciation</li>
+        <li style="margin: 6px 0;">Teaching English: Assessing Learning</li>
+        <li style="margin: 6px 0;">Teaching English: How to Adapt Resources</li>
+        <li style="margin: 6px 0;">Exporing Learning Disabilities</li>
         <li style="margin: 6px 0;">English Four Skills (2018)</li>
-        <li style="margin: 6px 0;">Social Science</li>
+        <li style="margin: 6px 0;">Introduction to Social Sciences</li>
+        <li style="margin: 6px 0;">Diversity and Inclusion in the Workpalce</li>
+        <li style="margin: 6px 0;">Teaching Online</li>
         <li style="margin: 6px 0;">I-Office Computer (2019)</li>
         <li style="margin: 6px 0;">Google Digital Marketing and E-Commerce (2025)</li>
         <li style="margin: 6px 0;">Career Advancement (2024)</li>
