@@ -157,7 +157,12 @@
         <h4 style="margin:0; font-size: 1.1em;">Mathematics, Hpa-An University, Myanmar</h4>
         <p style="color:#666; margin:4px 0 0 0; font-size: 0.9em;">2nd Year, 2019–2020</p>
       </div>
-
+      
+       <div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:12px 16px; margin: 15px 0; border-radius:6px;">
+        <h4 style="margin:0; font-size: 1.1em;">English (Upper Intermediate) and I-Office Computer,BopHtaw, MNEC</h4>
+        <p style="color:#666; margin:4px 0 0 0; font-size: 0.9em;">2021–2022</p>
+      </div>
+      
       <div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:12px 16px; margin: 15px 0 30px 0; border-radius:6px;">
         <h4 style="margin:0; font-size: 1.1em;"> English Four Skills, Dahrah Learning Center, Mawlamyine, Myanmar</h4>
         <p style="color:#666; margin:4px 0 0 0; font-size: 0.9em;">2018-2019</p>
