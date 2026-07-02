@@ -134,7 +134,7 @@
 
       <div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:12px 16px; margin: 15px 0 30px 0; border-radius:6px;">
         <h4 style="margin:0; font-size: 1.1em;">Online English Instructor</h4>
-        <p style="color:#666; margin:4px 0 8px; font-size: 0.9em;">Poy English Program (2019–2025)</p>
+        <p style="color:#666; margin:4px 0 8px; font-size: 0.9em;">Poy English Program (2019–present)</p>
         <ul style="margin:0; padding-left:18px; color: #444;">
           <li>Delivered engaging online lessons with interactive activities.</li>
           <li>Guided learners in pronunciation, writing, and communication.</li>
