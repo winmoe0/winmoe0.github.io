@@ -144,6 +144,15 @@
         </ul>
       </div>
 
+      <div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:12px 16px; margin: 15px 0 30px 0; border-radius:6px;">
+        <h4 style="margin:0; font-size: 1.1em;"> Leadership & Extracurriculars as a Chairman</h4>
+        <p style="color:#666; margin:4px 0 8px; font-size: 0.9em;">G60-99 Mon Charity Group</p>
+        <ul style="margin:0; padding-left:18px; color: #444;">
+          <li>Led community service initiatives, coordinated team efforts, and managed group activities to support community welfare.</li>
+          <li>Facilitated cross-team communication and managed resource distribution to ensure impactful community outreach and engagement.</li>
+        </ul>
+      </div>
+
       <h3 style="color:#0077b6; border-bottom:3px solid #00b4d8; padding-bottom: 5px; margin-top: 0;">🎓 Education</h3>
 
       <div style="background:#f9fbfc; border-left:4px solid #0077b6; padding:12px 16px; margin: 15px 0; border-radius:6px;">
