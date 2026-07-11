@@ -67,6 +67,9 @@
       <h3 style="color:#0077b6; border-bottom:2px solid #0077b6; margin-top: 30px; padding-bottom: 5px;">⭐ Skills</h3>
       <ul style="padding-left:20px; margin: 0;">
         <li style="margin: 6px 0;">Excellent Communication</li>
+        <li style="margin: 6px 0;">Content Creation Skill</li>
+        <li style="margin: 6px 0;">Video Editing</li>
+        <li style="margin: 6px 0;">Photographing & Videographing</li>
         <li style="margin: 6px 0;">Good Time Management</li>
         <li style="margin: 6px 0;">Flexibility</li>
         <li style="margin: 6px 0;">Self-Management</li>
