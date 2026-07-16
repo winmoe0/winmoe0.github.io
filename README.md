@@ -30,7 +30,7 @@
   <div class="header-container" style="display:flex; align-items:center; justify-content:flex-start; background:linear-gradient(135deg,#0077b6,#00b4d8); padding:40px; border-radius:16px; color:white; font-family:'Poppins',sans-serif; margin-bottom:20px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
     
     <div style="flex-shrink:0;">
-      <img src="wmcvphoto.jpg" alt="Win Moe Photo" width="150" style="border-radius:20px; border:4px solid #fff; box-shadow:0 8px 25px rgba(0,0,0,0.2); display: block; object-fit: cover;">
+      <img src="winmoeprofile2.jpg" alt="Win Moe Photo" width="150" style="border-radius:20px; border:4px solid #fff; box-shadow:0 8px 25px rgba(0,0,0,0.2); display: block; object-fit: cover;">
     </div>
 
     <div class="header-text" style="margin-left:30px;">
