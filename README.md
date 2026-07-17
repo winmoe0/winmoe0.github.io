@@ -1,6 +1,6 @@
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=width=1200, initial-scale=1.0">
+  <meta name="viewport" content="width=1200, initial-scale=1.0">
   <title>Win Moe - CV</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
   <style>
