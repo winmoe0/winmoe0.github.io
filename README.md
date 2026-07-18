@@ -98,10 +98,6 @@
       padding: 14px 18px;
       margin: 15px 0;
       border-radius: 0 8px 8px 0;
-      transition: transform 0.2s ease;
-    }
-    .card:hover {
-      transform: translateX(4px);
     }
     .card h4 {
       margin: 0;
@@ -311,6 +307,17 @@
         <div class="card-meta">Dahrah Learning Center, Mawlamyine, Myanmar | 2018–2019</div>
       </div>
 
+      <!-- Portfolio Section -->
+      <h3 class="section-title-main"><i class="fa-solid fa-briefcase-clock"></i> Portfolio</h3>
+      <div class="card">
+        <p style="margin:0;">
+          <a href="https://winmoe0.github.io/winmoe.portfolio/" target="_blank" style="font-weight: 500; word-break: break-all;">
+            winmoe0.github.io/winmoe.portfolio/
+          </a>
+        </p>
+      </div>
+
+      <!-- LinkedIn Section -->
       <h3 class="section-title-main"><i class="fa-brands fa-linkedin"></i> LinkedIn</h3>
       <div class="card">
         <p style="margin:0;">
@@ -320,6 +327,7 @@
         </p>
       </div>
 
+      <!-- References Section -->
       <h3 class="section-title-main"><i class="fa-solid fa-file-signature"></i> References</h3>
       <div class="card" style="border-left-color: #aaa;">
         <p style="margin:0; color:#555; font-style: italic;">References available upon request.</p>
