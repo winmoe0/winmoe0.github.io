@@ -206,6 +206,10 @@
         <li style="margin: 6px 0;">TEFL/TESOL (2026)</li>
         <li style="margin: 6px 0;">Teaching English to Young Learners (2026)</li>
         <li style="margin: 6px 0;">Teaching English to Refugee and Displaced Learners</li>
+        <li style="margin: 6px 0;">English for Career Development</li>
+        <li style="margin: 6px 0;">English for Tourism Professionals </li>
+        <li style="margin: 6px 0;">Teaching English Academic Writing </li>
+        <li style="margin: 6px 0;">Creating and Implementing Online Courses </li>
         <li style="margin: 6px 0;">Teaching English: How to Teach Pronunciation</li>
         <li style="margin: 6px 0;">Teaching English: Assessing Learning</li>
         <li style="margin: 6px 0;">Teaching English: How to Adapt Resources</li>
