@@ -1,342 +1,851 @@
-
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=1200, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Win Moe - CV</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <!-- Font Awesome for clean, professional icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
   <style>
+    /* =========================
+       A4 PAGE SETTINGS
+       ========================= */
+
+    @page {
+      size: A4;
+      margin: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
     body {
       margin: 0;
-      padding: 40px 20px;
-      background-color: #f4f7f9;
+      padding: 0;
+      font-family: "Times New Roman", Times, serif;
+      color: #222;
+      background: #eef3f6;
       -webkit-font-smoothing: antialiased;
-      font-family: 'Poppins', sans-serif;
     }
+
+    body {
+      padding: 20px;
+    }
+
+    /* =========================
+       MAIN A4 CONTAINER
+       ========================= */
+
     .cv-container {
-      max-width: 1000px;
+      width: 210mm;
+      min-height: 297mm;
       margin: 0 auto;
     }
+
+    /* =========================
+       HEADER
+       ========================= */
+
     .header-container {
       display: flex;
       align-items: center;
-      justify-content: flex-start;
       background: linear-gradient(135deg, #0077b6, #00b4d8);
-      padding: 40px;
-      border-radius: 16px;
+      padding: 25px 30px;
+      border-radius: 12px;
       color: white;
-      margin-bottom: 25px;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+      margin-bottom: 15px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
     }
+
+    .profile-photo {
+      width: 110px;
+      height: 110px;
+      flex-shrink: 0;
+      object-fit: cover;
+      border-radius: 15px;
+      border: 3px solid #fff;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+    }
+
     .header-text {
-      margin-left: 30px;
+      margin-left: 25px;
     }
+
     .header-text h1 {
       margin: 0;
-      font-size: 2.8em;
+      font-size: 32px;
       font-weight: 700;
-      letter-spacing: -0.5px;
     }
+
     .header-text h3 {
-      margin: 8px 0 0 0;
+      margin: 5px 0 0;
+      font-size: 18px;
       font-weight: 500;
       color: #e0f7fa;
-      letter-spacing: 0.5px;
     }
+
+    /* =========================
+       BODY
+       ========================= */
+
     .cv-body {
       display: flex;
-      flex-wrap: wrap;
-      box-shadow: 0 4px 25px rgba(0,0,0,0.05);
-      border-radius: 16px;
-      overflow: hidden;
+      align-items: stretch;
       background: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 25px rgba(0, 0, 0, 0.07);
     }
+
+    /* =========================
+       SIDEBAR
+       ========================= */
+
     .sidebar {
-      flex: 1;
-      min-width: 280px;
+      width: 34%;
       background: #f8fbfe;
-      padding: 35px 30px;
-      border-right: 1px solid #eef2f5;
-      line-height: 1.6;
+      padding: 24px 21px;
+      border-right: 1px solid #e4ebef;
+      line-height: 1.45;
     }
+
+    /* =========================
+       MAIN CONTENT
+       ========================= */
+
     .main-content {
-      flex: 2;
-      min-width: 320px;
-      padding: 35px 40px;
-      line-height: 1.6;
+      width: 66%;
+      padding: 24px 28px;
+      line-height: 1.45;
     }
-    .section-title-side {
-      color: #0077b6;
-      border-bottom: 2px solid #0077b6;
-      margin-top: 30px;
-      padding-bottom: 6px;
-      font-size: 1.15em;
+
+    /* =========================
+       SECTION TITLES
+       ========================= */
+
+    .section-title-side,
+    .section-title-main {
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 8px;
+      color: #0077b6;
+      font-weight: 700;
     }
+
+    .section-title-side {
+      font-size: 16px;
+      border-bottom: 2px solid #0077b6;
+      margin: 21px 0 9px;
+      padding-bottom: 5px;
+    }
+
     .section-title-side:first-of-type {
       margin-top: 0;
     }
+
     .section-title-main {
-      color: #0077b6;
-      border-bottom: 3px solid #00b4d8;
-      padding-bottom: 6px;
-      margin-top: 35px;
-      font-size: 1.3em;
-      display: flex;
-      align-items: center;
-      gap: 10px;
+      font-size: 19px;
+      border-bottom: 2px solid #00b4d8;
+      margin: 24px 0 10px;
+      padding-bottom: 5px;
     }
+
     .section-title-main:first-of-type {
       margin-top: 0;
     }
+
+    /* =========================
+       TEXT
+       ========================= */
+
+    p {
+      font-size: 13px;
+      margin-top: 5px;
+      margin-bottom: 7px;
+    }
+
+    li {
+      font-size: 12.5px;
+      margin-bottom: 4px;
+    }
+
+    .sidebar p,
+    .sidebar li {
+      font-size: 12.5px;
+    }
+
+    /* =========================
+       CARDS
+       ========================= */
+
     .card {
       background: #f9fbfc;
-      border-left: 4px solid #0077b6;
-      padding: 14px 18px;
-      margin: 15px 0;
-      border-radius: 0 8px 8px 0;
+      border-left: 3px solid #0077b6;
+      padding: 9px 13px;
+      margin: 9px 0;
+      border-radius: 0 6px 6px 0;
+
+      break-inside: avoid;
+      page-break-inside: avoid;
     }
+
     .card h4 {
       margin: 0;
-      font-size: 1.1em;
+      font-size: 15.5px;
+      font-weight: 700;
       color: #111;
     }
+
     .card-meta {
       color: #666;
-      margin: 4px 0 8px;
-      font-size: 0.9em;
+      margin: 3px 0 6px;
+      font-size: 12px;
       font-weight: 500;
     }
+
+    .card ul {
+      margin: 3px 0 0;
+      padding-left: 18px;
+    }
+
+    /* =========================
+       LINKS
+       ========================= */
+
     a {
       color: #0077b6;
       text-decoration: none;
     }
+
     a:hover {
       text-decoration: underline;
     }
 
-    /* Responsive adjustments */
-    @media (max-width: 768px) {
+    /* =========================
+       LISTS
+       ========================= */
+
+    .sidebar ul {
+      padding-left: 19px;
+      margin: 0;
+    }
+
+    .sidebar ul.no-bullets {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .sidebar ul.no-bullets li {
+      margin: 6px 0;
+    }
+
+    /* =========================
+       PRINT
+       ========================= */
+
+    @media print {
+
+      html,
       body {
-        padding: 15px;
+        width: 210mm;
+        min-height: 297mm;
+        background: #fff;
       }
-      .header-container {
-        flex-direction: column;
-        text-align: center;
-        padding: 30px 20px;
+
+      body {
+        padding: 0;
       }
-      .header-text {
-        margin-left: 0;
-        margin-top: 20px;
+
+      .cv-container {
+        width: 210mm;
+        min-height: 297mm;
+        margin: 0;
       }
+
+      .header-container,
       .cv-body {
-        flex-direction: column;
+        box-shadow: none;
       }
-      .sidebar {
-        border-right: none;
-        border-bottom: 1px solid #eef2f5;
-        padding: 30px 20px;
-      }
-      .main-content {
-        padding: 30px 20px;
+
+      a {
+        color: inherit;
+        text-decoration: none;
       }
     }
+
+    /* =========================
+       SCREEN VIEW
+       ========================= */
+
+    @media screen and (max-width: 900px) {
+
+      body {
+        padding: 10px;
+        overflow-x: auto;
+      }
+
+      .cv-container {
+        width: 210mm;
+        margin: 0 auto;
+      }
+    }
+
   </style>
 </head>
+
 <body>
 
 <div class="cv-container">
 
-  <!-- Header Section -->
+  <!-- =========================
+       HEADER
+       ========================= -->
+
   <div class="header-container">
-    <div style="flex-shrink:0;">
-      <img src="winmoeprofile2.jpg" alt="Win Moe Photo" width="140" height="140" style="border-radius:20px; border:4px solid #fff; box-shadow:0 8px 25px rgba(0,0,0,0.15); display: block; object-fit: cover;">
-    </div>
+
+    <img
+      src="winmoeprofile2.jpg"
+      alt="Win Moe Photo"
+      class="profile-photo"
+    >
+
     <div class="header-text">
       <h1>Win Moe</h1>
       <h3>English Teacher</h3>
     </div>
+
   </div>
 
-  <!-- Main Body Wrapper -->
+
+  <!-- =========================
+       CV BODY
+       ========================= -->
+
   <div class="cv-body">
 
-    <!-- Left Sidebar Content -->
-    <div class="sidebar">
-      <h3 class="section-title-side"><i class="fa-solid fa-address-book"></i> Contact</h3>
-      <p style="margin: 8px 0;"><b>Phone:</b> 0924854332</p>
-      <p style="margin: 8px 0;"><b>Email:</b> <a href="mailto:minwinmoe123@gmail.com" style="word-break: break-all;">minwinmoe123@gmail.com</a></p>
-      <p style="margin: 8px 0;"><b>Address:</b> Chiang Mai, Thailand</p>
 
-      <h3 class="section-title-side"><i class="fa-solid fa-user"></i> Personal Info</h3>
-      <ul style="list-style:none; padding:0; margin: 0;">
-        <li style="margin: 8px 0;"><b>Gender:</b> Male</li>
-        <li style="margin: 8px 0;"><b>Age:</b> 28</li>
-        <li style="margin: 8px 0;"><b>Nationality:</b> Myanmar</li>
-        <li style="margin: 8px 0;"><b>Marital Status:</b> Single</li>
+    <!-- =========================
+         LEFT SIDEBAR
+         ========================= -->
+
+    <aside class="sidebar">
+
+
+      <!-- CONTACT -->
+
+      <h3 class="section-title-side">
+        <i class="fa-solid fa-address-book"></i>
+        Contact
+      </h3>
+
+      <p><strong>Phone:</strong> 0924854332</p>
+
+      <p>
+        <strong>Email:</strong>
+        <a href="mailto:minwinmoe123@gmail.com">
+          minwinmoe123@gmail.com
+        </a>
+      </p>
+
+      <p>
+        <strong>Address:</strong>
+        Chiang Mai, Thailand
+      </p>
+
+
+      <!-- PERSONAL INFORMATION -->
+
+      <h3 class="section-title-side">
+        <i class="fa-solid fa-user"></i>
+        Personal Information
+      </h3>
+
+      <ul class="no-bullets">
+
+        <li>
+          <strong>Gender:</strong> Male
+        </li>
+
+        <li>
+          <strong>Age:</strong> 28
+        </li>
+
+        <li>
+          <strong>Nationality:</strong> Myanmar
+        </li>
+
+        <li>
+          <strong>Marital Status:</strong> Single
+        </li>
+
       </ul>
 
-      <h3 class="section-title-side"><i class="fa-solid fa-earth-americas"></i> Languages</h3>
-      <ul style="padding-left:20px; margin: 0;">
-        <li style="margin: 6px 0;">Mon (Native)</li>
-        <li style="margin: 6px 0;">Burmese (Fluent)</li>
-        <li style="margin: 6px 0;">English (Advanced)</li>
-        <li style="margin: 6px 0;">Thai (Conversational)</li>
+
+      <!-- LANGUAGES -->
+
+      <h3 class="section-title-side">
+        <i class="fa-solid fa-earth-americas"></i>
+        Languages
+      </h3>
+
+      <ul>
+
+        <li>Mon (Native)</li>
+        <li>Burmese (Fluent)</li>
+        <li>English (Advanced)</li>
+        <li>Thai (Conversational)</li>
+
       </ul>
 
-      <h3 class="section-title-side"><i class="fa-solid fa-star"></i> Skills</h3>
-      <ul style="padding-left:20px; margin: 0;">
-        <li style="margin: 6px 0;">Excellent Communication</li>
-        <li style="margin: 6px 0;">Content Creation</li>
-        <li style="margin: 6px 0;">Video Editing</li>
-        <li style="margin: 6px 0;">Photography & Videography</li>
-        <li style="margin: 6px 0;">Time Management</li>
-        <li style="margin: 6px 0;">Flexibility & Adaptability</li>
-        <li style="margin: 6px 0;">Self-Management</li>
-        <li style="margin: 6px 0;">Presentation Skills</li>
-        <li style="margin: 6px 0;">Team Collaboration</li>
-        <li style="margin: 6px 0;">Patience & Understanding</li>
+
+      <!-- SKILLS -->
+
+      <h3 class="section-title-side">
+        <i class="fa-solid fa-star"></i>
+        Skills
+      </h3>
+
+      <ul>
+
+        <li>Lesson Planning and Instruction</li>
+        <li>Classroom Management</li>
+        <li>Student Assessment and Feedback</li>
+        <li>Team Collaboration</li>
+        <li>Effective Communication</li>
+        <li>Time Management</li>
+        <li>Flexibility and Adaptability</li>
+        <li>Content Creation and Videography</li>
+        <li>Social Media Management</li>
+
       </ul>
 
-      <h3 class="section-title-side"><i class="fa-solid fa-certificate"></i> Certificates</h3>
-      <ul style="padding-left:20px; margin: 0; font-size: 0.95em;">
-        <li style="margin: 6px 0;">TEFL/TESOL (2026)</li>
-        <li style="margin: 6px 0;">Teaching English to Young Learners (2026)</li>
-        <li style="margin: 6px 0;">Teaching English to Refugee and Displaced Learners</li>
-        <li style="margin: 6px 0;">English for Career Development</li>
-        <li style="margin: 6px 0;">English for Tourism Professionals </li>
-        <li style="margin: 6px 0;">Teaching English Academic Writing </li>
-        <li style="margin: 6px 0;">Creating and Implementing Online Courses </li>
-        <li style="margin: 6px 0;">Teaching English: How to Teach Pronunciation</li>
-        <li style="margin: 6px 0;">Teaching English: Assessing Learning</li>
-        <li style="margin: 6px 0;">Teaching English: How to Adapt Resources</li>
-        <li style="margin: 6px 0;">Exploring Learning Disabilities</li>
-        <li style="margin: 6px 0;">English Four Skills (2018)</li>
-        <li style="margin: 6px 0;">Introduction to Social Sciences</li>
-        <li style="margin: 6px 0;">Diversity and Inclusion in the Workplace</li>
-        <li style="margin: 6px 0;">Teaching Online</li>
-        <li style="margin: 6px 0;">I-Office Computer (2019)</li>
-        <li style="margin: 6px 0;">Google Digital Marketing & E-Commerce (2025)</li>
-        <li style="margin: 6px 0;">Career Advancement (2024)</li>
-        <li style="margin: 6px 0;">Mastering E-Learning Designs for Modern Educators (2025)</li>
-        <li style="margin: 6px 0;">Stress Management and Self-Care (2025)</li>
-        <li style="margin: 6px 0;">Localization in Humanitarian Aid (2025)</li>
-        <li style="margin: 6px 0;">Financial Literacy (2018)</li>
+
+      <!-- CERTIFICATES -->
+
+      <h3 class="section-title-side">
+        <i class="fa-solid fa-certificate"></i>
+        Certificates
+      </h3>
+
+      <ul>
+
+        <li>TEFL/TESOL (2026)</li>
+
+        <li>
+          Teaching English to Young Learners (2026)
+        </li>
+
+        <li>
+          Teaching English to Refugee and Displaced Learners
+        </li>
+
+        <li>
+          English for Career Development
+        </li>
+
+        <li>
+          English for Tourism Professionals
+        </li>
+
+        <li>
+          Teaching English Academic Writing
+        </li>
+
+        <li>
+          Creating and Implementing Online Courses
+        </li>
+
+        <li>
+          Teaching English: How to Teach Pronunciation
+        </li>
+
+        <li>
+          Teaching English: Assessing Learning
+        </li>
+
+        <li>
+          Teaching English: How to Adapt Resources
+        </li>
+
+        <li>
+          Exploring Learning Disabilities
+        </li>
+
+        <li>
+          English Four Skills (2018)
+        </li>
+
+        <li>
+          Introduction to Social Sciences
+        </li>
+
+        <li>
+          Diversity and Inclusion in the Workplace
+        </li>
+
+        <li>
+          Teaching Online
+        </li>
+
+        <li>
+          I-Office Computer (2019)
+        </li>
+
+        <li>
+          Google Digital Marketing &amp; E-Commerce (2025)
+        </li>
+
+        <li>
+          Career Advancement (2024)
+        </li>
+
+        <li>
+          Mastering E-Learning Designs for Modern Educators (2025)
+        </li>
+
+        <li>
+          Stress Management and Self-Care (2025)
+        </li>
+
       </ul>
 
-      <h3 class="section-title-side"><i class="fa-solid fa-hands-helping"></i> Volunteer Experience</h3>
-      <ul style="padding-left:20px; margin: 0; font-size: 0.95em;">
-        <li style="margin: 8px 0;"><b>Volunteer English Teacher:</b> Dahrah Learning Center, Myanmar (2024)</li>
-        <li style="margin: 8px 0;"><b>Volunteer Content Creator & Presenter:</b> Payap University, Chiang Mai, Thailand (2025)</li>
-        <li style="margin: 8px 0;"><b>Volunteer ESL Instructor (Four Skills):</b> Poy English Program, Myanmar (2025)</li>
-        <li style="margin: 8px 0;"><b>Cultural Exchange Volunteer:</b> International College, Payap University, Thailand (2024)</li>
+
+      <!-- VOLUNTEER EXPERIENCE -->
+
+      <h3 class="section-title-side">
+        <i class="fa-solid fa-hands-helping"></i>
+        Volunteer Experience
+      </h3>
+
+      <ul>
+
+        <li>
+          <strong>Volunteer English Teacher:</strong>
+          Dahrah Learning Center, Myanmar (2024)
+        </li>
+
+        <li>
+          <strong>Volunteer Content Creator &amp; Presenter:</strong>
+          Payap University, Chiang Mai, Thailand (2025)
+        </li>
+
+        <li>
+          <strong>Volunteer ESL Instructor (Four Skills):</strong>
+          Poy English Program, Myanmar (2025)
+        </li>
+
+        <li>
+          <strong>Cultural Exchange Volunteer:</strong>
+          International College, Payap University, Thailand (2024)
+        </li>
+
       </ul>
-    </div>
 
-    <!-- Right Main Content -->
-    <div class="main-content">
-      <h3 class="section-title-main"><i class="fa-solid fa-bullseye"></i> Career Objective</h3>
-      <p style="color: #444; text-align: justify; margin: 10px 0 25px 0;">Motivated and compassionate English educator with over four years of teaching experience, both onsite and online, committed to fostering an inclusive, engaging, and inspiring learning environment. Passionate about empowering students to achieve their full potential through interactive teaching methods, cultural awareness, and personalized guidance. Skilled in curriculum development, classroom management, and innovative instructional strategies that enhance language proficiency, critical thinking, and confidence. Dedicated to lifelong learning and continuous professional growth, with a strong desire to make a positive impact on students’ academic and personal development.</p>
+    </aside>
 
-      <h3 class="section-title-main"><i class="fa-solid fa-briefcase"></i> Work Experience</h3>
+
+    <!-- =========================
+         RIGHT MAIN CONTENT
+         ========================= -->
+
+    <main class="main-content">
+
+
+      <!-- CAREER OBJECTIVE -->
+
+      <h3 class="section-title-main">
+        <i class="fa-solid fa-bullseye"></i>
+        Career Objective
+      </h3>
+
+      <p style="text-align: justify; color:#444;">
+
+        Motivated and compassionate English educator with over four years
+        of teaching experience in both onsite and online settings.
+        Experienced in student-centered instruction, lesson planning,
+        classroom management, assessment, and digital learning.
+        Committed to creating inclusive and engaging learning environments
+        that help students develop English proficiency, confidence, and
+        critical thinking skills. Passionate about continuous professional
+        development and contributing positively to students' academic and
+        personal growth.
+
+      </p>
+
+
+      <!-- WORK EXPERIENCE -->
+
+      <h3 class="section-title-main">
+        <i class="fa-solid fa-briefcase"></i>
+        Work Experience
+      </h3>
+
 
       <div class="card">
+
         <h4>English Teacher</h4>
-        <div class="card-meta">Mon National Primary School, Ye Township, Myanmar | 2023–2024</div>
-        <ul style="margin:0; padding-left:18px; color: #444;">
-          <li>Improved student English proficiency across core language pillars: writing, reading, listening, and speaking.</li>
-          <li>Implemented creative, student-centered instructional methods to drive engagement.</li>
+
+        <div class="card-meta">
+          Mon National Primary School, Ye Township, Myanmar | 2023–2024
+        </div>
+
+        <ul>
+
+          <li>
+            Improved students' English proficiency in reading, writing,
+            listening, and speaking.
+          </li>
+
+          <li>
+            Implemented creative and student-centered teaching methods
+            to increase participation and engagement.
+          </li>
+
         </ul>
+
       </div>
 
+
       <div class="card">
+
         <h4>Content Creator</h4>
-        <div class="card-meta">Online Educational Platforms | 2019–Present</div>
-        <ul style="margin:0; padding-left:18px; color: #444;">
-          <li>Produced high-quality educational English videos reaching highly diverse student demographics.</li>
-          <li>Cultivated and maintained digital networks to foster supportive online learning environments.</li>
+
+        <div class="card-meta">
+          Online Educational Platforms | 2019–Present
+        </div>
+
+        <ul>
+
+          <li>
+            Created educational English content for diverse learners
+            through online platforms.
+          </li>
+
+          <li>
+            Developed digital learning materials and maintained online
+            communities to support English language learning.
+          </li>
+
         </ul>
+
       </div>
 
+
       <div class="card">
+
         <h4>Online English Instructor</h4>
-        <div class="card-meta">Poy English Program | 2019–Present</div>
-        <ul style="margin:0; padding-left:18px; color: #444;">
-          <li>Delivered dynamic online modules leveraging integrated interactive media platforms.</li>
-          <li>Provided personalized guidance to help students correct pronunciation, polish writing, and scale spoken communication.</li>
+
+        <div class="card-meta">
+          Poy English Program | 2019–2026
+        </div>
+
+        <ul>
+
+          <li>
+            Delivered interactive online English lessons using digital
+            learning platforms and multimedia resources.
+          </li>
+
+          <li>
+            Provided individualized feedback on pronunciation, writing,
+            and spoken communication.
+          </li>
+
         </ul>
+
       </div>
 
+
       <div class="card">
-        <h4>Leadership Experience as Chairman</h4>
-        <div class="card-meta">G60-99 Mon Charity Group | 2020–2024</div>
-        <ul style="margin:0; padding-left:18px; color: #444;">
-          <li>Headed community service initiatives and drove logistical strategy to support local community welfare.</li>
-          <li>Facilitated cross-functional team communication to execute high-impact outreach programs.</li>
+
+        <h4>Chairman – Leadership &amp; Community Service</h4>
+
+        <div class="card-meta">
+          G60-99 Mon Charity Group | 2020–2022
+        </div>
+
+        <ul>
+
+          <li>
+            Led community service and fundraising initiatives supporting
+            local community welfare.
+          </li>
+
+          <li>
+            Coordinated volunteers, delegated responsibilities, and
+            facilitated effective team communication.
+          </li>
+
         </ul>
+
       </div>
 
-      <h3 class="section-title-main"><i class="fa-solid fa-graduation-cap"></i> Education</h3>
+
+      <!-- EDUCATION -->
+
+      <h3 class="section-title-main">
+        <i class="fa-solid fa-graduation-cap"></i>
+        Education
+      </h3>
+
 
       <div class="card">
-        <h4>Bachelor of Arts in English Communication</h4>
-        <div class="card-meta">Payap University, Chiang Mai, Thailand | 3rd Year (Expected Graduation: 2027)</div>
+
+        <h4>
+          Bachelor of Arts in English Communication
+        </h4>
+
+        <div class="card-meta">
+          Payap University, Chiang Mai, Thailand |
+          3rd Year |
+          Expected Graduation: 2027
+        </div>
+
       </div>
 
-      <div class="card">
-        <h4>Diploma in Social Sciences</h4>
-        <div class="card-meta">National University of Zoland, Myanmar | 2025–Present (Expected Graduation: July 2026)</div>
-      </div>
 
       <div class="card">
-        <h4>Associate Degree in Education (Teaching)</h4>
-        <div class="card-meta">Mon National College, Myanmar | 2022–2024</div>
+
+        <h4>
+          Diploma in Social Sciences
+        </h4>
+
+        <div class="card-meta">
+          National University of Zoland, Myanmar |
+          2025–Present |
+          Expected Graduation: July 2026
+        </div>
+
       </div>
 
-      <div class="card">
-        <h4>English (Upper Intermediate) & I-Office Computer Certificate</h4>
-        <div class="card-meta">BopHtaw, MNEC | 2021–2022</div>
-      </div>
 
       <div class="card">
-        <h4>Undergraduate Coursework in Mathematics</h4>
-        <div class="card-meta">Hpa-An University, Myanmar | 2nd Year, 2019–2020</div>
-      </div>
-      
-      <div class="card">
-        <h4>English Four Skills Program</h4>
-        <div class="card-meta">Dahrah Learning Center, Mawlamyine, Myanmar | 2018–2019</div>
+
+        <h4>
+          Associate Degree in Education (Teaching)
+        </h4>
+
+        <div class="card-meta">
+          Mon National College, Myanmar | 2022–2024
+        </div>
+
       </div>
 
-      <!-- Portfolio Section -->
-      <h3 class="section-title-main"><i class="fa-solid fa-briefcase-clock"></i> Portfolio</h3>
+
       <div class="card">
+
+        <h4>
+          English (Upper Intermediate) &amp; I-Office Computer Certificate
+        </h4>
+
+        <div class="card-meta">
+          BopHtaw, MNEC | 2021–2022
+        </div>
+
+      </div>
+
+
+      <div class="card">
+
+        <h4>
+          Undergraduate Coursework in Mathematics
+        </h4>
+
+        <div class="card-meta">
+          Hpa-An University, Myanmar |
+          2nd Year | 2018–2020
+        </div>
+
+      </div>
+
+
+      <div class="card">
+
+        <h4>
+          English Four Skills Program
+        </h4>
+
+        <div class="card-meta">
+          Dahrah Learning Center, Mawlamyine, Myanmar |
+          2018–2019
+        </div>
+
+      </div>
+
+
+      <!-- PORTFOLIO -->
+
+      <h3 class="section-title-main">
+        <i class="fa-solid fa-briefcase-clock"></i>
+        Portfolio
+      </h3>
+
+      <div class="card">
+
         <p style="margin:0;">
-          <a href="https://winmoe0.github.io/winmoe.portfolio/" target="_blank" style="font-weight: 500; word-break: break-all;">
+
+          <a
+            href="https://winmoe0.github.io/winmoe.portfolio/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             winmoe0.github.io/winmoe.portfolio/
           </a>
+
         </p>
+
       </div>
 
-      <!-- LinkedIn Section -->
-      <h3 class="section-title-main"><i class="fa-brands fa-linkedin"></i> LinkedIn</h3>
+
+      <!-- LINKEDIN -->
+
+      <h3 class="section-title-main">
+        <i class="fa-brands fa-linkedin"></i>
+        LinkedIn
+      </h3>
+
       <div class="card">
+
         <p style="margin:0;">
-          <a href="https://www.linkedin.com/in/win-moe-73b006395" target="_blank" style="font-weight: 500; word-break: break-all;">
+
+          <a
+            href="https://www.linkedin.com/in/win-moe-73b006395"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             linkedin.com/in/win-moe-73b006395
           </a>
+
         </p>
+
       </div>
 
-      <!-- References Section -->
-      <h3 class="section-title-main"><i class="fa-solid fa-file-signature"></i> References</h3>
-      <div class="card" style="border-left-color: #aaa;">
-        <p style="margin:0; color:#555; font-style: italic;">References available upon request.</p>
+
+      <!-- REFERENCES -->
+
+      <h3 class="section-title-main">
+        <i class="fa-solid fa-file-signature"></i>
+        References
+      </h3>
+
+      <div
+        class="card"
+        style="border-left-color:#aaa;"
+      >
+
+        <p style="margin:0; color:#555; font-style:italic;">
+          References available upon request.
+        </p>
+
       </div>
 
-    </div>
+
+    </main>
+
   </div>
+
 </div>
