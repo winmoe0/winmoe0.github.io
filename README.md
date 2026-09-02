@@ -1,20 +1,20 @@
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Win Moe - CV</title>
 
-  <!-- Font Awesome -->
   <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
   <style>
-    /* =========================
+    /* ================================
        A4 PAGE SETTINGS
-       ========================= */
+       ================================ */
 
     @page {
-      size: A4;
+      size: 8.27in 11.69in;
       margin: 0;
     }
 
@@ -26,195 +26,207 @@
     body {
       margin: 0;
       padding: 0;
+      background: #eef2f5;
       font-family: "Times New Roman", Times, serif;
       color: #222;
-      background: #eef3f6;
-      -webkit-font-smoothing: antialiased;
     }
 
     body {
-      padding: 20px;
+      -webkit-font-smoothing: antialiased;
     }
 
-    /* =========================
-       MAIN A4 CONTAINER
-       ========================= */
+    /* Exact A4 dimensions:
+       8.27 × 11.69 inches
+       210 × 297 mm
+    */
 
     .cv-container {
-      width: 210mm;
-      min-height: 297mm;
-      margin: 0 auto;
+      width: 8.27in;
+      min-height: 11.69in;
+      margin: 25px auto;
+      background: #ffffff;
+      overflow: hidden;
+      box-shadow: 0 5px 25px rgba(0, 0, 0, 0.10);
     }
 
-    /* =========================
+    /* ================================
        HEADER
-       ========================= */
+       ================================ */
 
     .header-container {
       display: flex;
       align-items: center;
-      background: linear-gradient(135deg, #0077b6, #00b4d8);
-      padding: 25px 30px;
-      border-radius: 12px;
+      background: linear-gradient(135deg, #0077b6, #00a6d6);
+      padding: 24px 28px;
       color: white;
-      margin-bottom: 15px;
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
     }
 
     .profile-photo {
-      width: 110px;
-      height: 110px;
+      width: 105px;
+      height: 105px;
       flex-shrink: 0;
       object-fit: cover;
-      border-radius: 15px;
-      border: 3px solid #fff;
-      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+      border-radius: 14px;
+      border: 3px solid #ffffff;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
     }
 
     .header-text {
-      margin-left: 25px;
+      margin-left: 24px;
     }
 
     .header-text h1 {
       margin: 0;
-      font-size: 32px;
+      font-size: 31px;
+      line-height: 1.1;
       font-weight: 700;
+      letter-spacing: 0.2px;
     }
 
     .header-text h3 {
-      margin: 5px 0 0;
-      font-size: 18px;
-      font-weight: 500;
-      color: #e0f7fa;
+      margin: 7px 0 0;
+      font-size: 17px;
+      font-weight: 400;
+      color: #e8faff;
     }
 
-    /* =========================
-       BODY
-       ========================= */
+    /* ================================
+       MAIN BODY
+       ================================ */
 
     .cv-body {
-      display: flex;
-      align-items: stretch;
-      background: #fff;
-      border-radius: 12px;
-      overflow: hidden;
-      box-shadow: 0 4px 25px rgba(0, 0, 0, 0.07);
+      display: grid;
+      grid-template-columns: 34% 66%;
+      min-height: calc(11.69in - 153px);
     }
 
-    /* =========================
+    /* ================================
        SIDEBAR
-       ========================= */
+       ================================ */
 
     .sidebar {
-      width: 34%;
-      background: #f8fbfe;
-      padding: 24px 21px;
-      border-right: 1px solid #e4ebef;
-      line-height: 1.45;
+      background: #f6fafc;
+      padding: 22px 20px;
+      border-right: 1px solid #e4edf2;
+      font-size: 11px;
+      line-height: 1.42;
     }
 
-    /* =========================
+    /* ================================
        MAIN CONTENT
-       ========================= */
+       ================================ */
 
     .main-content {
-      width: 66%;
-      padding: 24px 28px;
-      line-height: 1.45;
+      padding: 22px 25px;
+      font-size: 11.5px;
+      line-height: 1.42;
     }
 
-    /* =========================
-       SECTION TITLES
-       ========================= */
+    /* ================================
+       SECTION HEADINGS
+       ================================ */
 
     .section-title-side,
     .section-title-main {
       display: flex;
       align-items: center;
-      gap: 8px;
+      gap: 7px;
       color: #0077b6;
       font-weight: 700;
     }
 
     .section-title-side {
-      font-size: 16px;
-      border-bottom: 2px solid #0077b6;
-      margin: 21px 0 9px;
-      padding-bottom: 5px;
+      font-size: 13px;
+      border-bottom: 1.5px solid #0077b6;
+      padding-bottom: 4px;
+      margin: 18px 0 8px;
     }
 
-    .section-title-side:first-of-type {
+    .section-title-side:first-child {
       margin-top: 0;
     }
 
     .section-title-main {
-      font-size: 19px;
-      border-bottom: 2px solid #00b4d8;
-      margin: 24px 0 10px;
-      padding-bottom: 5px;
+      font-size: 16px;
+      border-bottom: 2px solid #00a6d6;
+      padding-bottom: 4px;
+      margin: 18px 0 8px;
     }
 
-    .section-title-main:first-of-type {
+    .section-title-main:first-child {
       margin-top: 0;
     }
 
-    /* =========================
-       TEXT
-       ========================= */
+    /* ================================
+       CONTACT / PERSONAL INFO
+       ================================ */
 
-    p {
-      font-size: 13px;
-      margin-top: 5px;
-      margin-bottom: 7px;
+    .sidebar p {
+      margin: 5px 0;
     }
 
-    li {
-      font-size: 12.5px;
-      margin-bottom: 4px;
+    .sidebar ul {
+      margin: 0;
+      padding-left: 17px;
     }
 
-    .sidebar p,
+    .sidebar ul.no-bullets {
+      padding-left: 0;
+      list-style: none;
+    }
+
     .sidebar li {
-      font-size: 12.5px;
+      margin: 4px 0;
     }
 
-    /* =========================
+    /* ================================
        CARDS
-       ========================= */
+       ================================ */
 
     .card {
       background: #f9fbfc;
       border-left: 3px solid #0077b6;
-      padding: 9px 13px;
-      margin: 9px 0;
-      border-radius: 0 6px 6px 0;
-
-      break-inside: avoid;
-      page-break-inside: avoid;
+      padding: 8px 11px;
+      margin: 8px 0;
+      border-radius: 0 5px 5px 0;
     }
 
     .card h4 {
       margin: 0;
-      font-size: 15.5px;
-      font-weight: 700;
       color: #111;
+      font-size: 13px;
+      line-height: 1.2;
+      font-weight: 700;
     }
 
     .card-meta {
+      margin: 3px 0 5px;
       color: #666;
-      margin: 3px 0 6px;
-      font-size: 12px;
-      font-weight: 500;
+      font-size: 10px;
+      line-height: 1.25;
+      font-weight: 400;
     }
 
     .card ul {
-      margin: 3px 0 0;
-      padding-left: 18px;
+      margin: 0;
+      padding-left: 16px;
+      color: #444;
     }
 
-    /* =========================
-       LINKS
-       ========================= */
+    .card li {
+      margin: 2px 0;
+    }
+
+    /* ================================
+       GENERAL TEXT
+       ================================ */
+
+    .objective {
+      margin: 6px 0 12px;
+      color: #444;
+      text-align: justify;
+      line-height: 1.42;
+    }
 
     a {
       color: #0077b6;
@@ -225,75 +237,103 @@
       text-decoration: underline;
     }
 
-    /* =========================
-       LISTS
-       ========================= */
-
-    .sidebar ul {
-      padding-left: 19px;
-      margin: 0;
+    .small-text {
+      font-size: 10px;
     }
 
-    .sidebar ul.no-bullets {
-      list-style: none;
-      padding-left: 0;
-    }
-
-    .sidebar ul.no-bullets li {
-      margin: 6px 0;
-    }
-
-    /* =========================
+    /* ================================
        PRINT
-       ========================= */
+       ================================ */
 
     @media print {
 
       html,
       body {
-        width: 210mm;
-        min-height: 297mm;
-        background: #fff;
-      }
-
-      body {
+        width: 8.27in;
+        height: 11.69in;
+        margin: 0;
         padding: 0;
+        background: #ffffff;
       }
 
       .cv-container {
-        width: 210mm;
-        min-height: 297mm;
+        width: 8.27in;
+        height: 11.69in;
+        min-height: 11.69in;
         margin: 0;
+        box-shadow: none;
+        overflow: hidden;
       }
 
-      .header-container,
-      .cv-body {
-        box-shadow: none;
+      .header-container {
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+      }
+
+      .sidebar {
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+      }
+
+      .card {
+        break-inside: avoid;
+        page-break-inside: avoid;
       }
 
       a {
-        color: inherit;
-        text-decoration: none;
+        color: #0077b6;
       }
     }
 
-    /* =========================
-       SCREEN VIEW
-       ========================= */
+    /* ================================
+       SCREEN RESPONSIVENESS
+       ================================ */
 
     @media screen and (max-width: 900px) {
 
       body {
         padding: 10px;
-        overflow-x: auto;
       }
 
       .cv-container {
-        width: 210mm;
+        width: 100%;
+        min-height: auto;
         margin: 0 auto;
       }
     }
 
+    @media screen and (max-width: 650px) {
+
+      .header-container {
+        padding: 22px;
+      }
+
+      .profile-photo {
+        width: 85px;
+        height: 85px;
+      }
+
+      .header-text {
+        margin-left: 16px;
+      }
+
+      .header-text h1 {
+        font-size: 25px;
+      }
+
+      .header-text h3 {
+        font-size: 14px;
+      }
+
+      .cv-body {
+        grid-template-columns: 1fr;
+      }
+
+      .sidebar {
+        border-right: none;
+        border-bottom: 1px solid #e4edf2;
+      }
+    }
   </style>
 </head>
 
@@ -301,15 +341,15 @@
 
 <div class="cv-container">
 
-  <!-- =========================
+  <!-- ================================
        HEADER
-       ========================= -->
+       ================================ -->
 
-  <div class="header-container">
+  <header class="header-container">
 
     <img
       src="winmoeprofile2.jpg"
-      alt="Win Moe Photo"
+      alt="Win Moe Profile Photo"
       class="profile-photo"
     >
 
@@ -318,31 +358,32 @@
       <h3>English Teacher</h3>
     </div>
 
-  </div>
+  </header>
 
 
-  <!-- =========================
+  <!-- ================================
        CV BODY
-       ========================= -->
+       ================================ -->
 
   <div class="cv-body">
 
 
-    <!-- =========================
-         LEFT SIDEBAR
-         ========================= -->
+    <!-- ================================
+         SIDEBAR
+         ================================ -->
 
     <aside class="sidebar">
 
-
-      <!-- CONTACT -->
+      <!-- Contact -->
 
       <h3 class="section-title-side">
         <i class="fa-solid fa-address-book"></i>
         Contact
       </h3>
 
-      <p><strong>Phone:</strong> 0924854332</p>
+      <p>
+        <strong>Phone:</strong> 0924854332
+      </p>
 
       <p>
         <strong>Email:</strong>
@@ -352,12 +393,11 @@
       </p>
 
       <p>
-        <strong>Address:</strong>
-        Chiang Mai, Thailand
+        <strong>Address:</strong> Chiang Mai, Thailand
       </p>
 
 
-      <!-- PERSONAL INFORMATION -->
+      <!-- Personal Information -->
 
       <h3 class="section-title-side">
         <i class="fa-solid fa-user"></i>
@@ -385,7 +425,7 @@
       </ul>
 
 
-      <!-- LANGUAGES -->
+      <!-- Languages -->
 
       <h3 class="section-title-side">
         <i class="fa-solid fa-earth-americas"></i>
@@ -402,7 +442,7 @@
       </ul>
 
 
-      <!-- SKILLS -->
+      <!-- Skills -->
 
       <h3 class="section-title-side">
         <i class="fa-solid fa-star"></i>
@@ -424,14 +464,14 @@
       </ul>
 
 
-      <!-- CERTIFICATES -->
+      <!-- Certificates -->
 
       <h3 class="section-title-side">
         <i class="fa-solid fa-certificate"></i>
         Certificates
       </h3>
 
-      <ul>
+      <ul class="small-text">
 
         <li>TEFL/TESOL (2026)</li>
 
@@ -443,21 +483,13 @@
           Teaching English to Refugee and Displaced Learners
         </li>
 
-        <li>
-          English for Career Development
-        </li>
+        <li>English for Career Development</li>
 
-        <li>
-          English for Tourism Professionals
-        </li>
+        <li>English for Tourism Professionals</li>
 
-        <li>
-          Teaching English Academic Writing
-        </li>
+        <li>Teaching English Academic Writing</li>
 
-        <li>
-          Creating and Implementing Online Courses
-        </li>
+        <li>Creating and Implementing Online Courses</li>
 
         <li>
           Teaching English: How to Teach Pronunciation
@@ -471,37 +503,23 @@
           Teaching English: How to Adapt Resources
         </li>
 
-        <li>
-          Exploring Learning Disabilities
-        </li>
+        <li>Exploring Learning Disabilities</li>
 
-        <li>
-          English Four Skills (2018)
-        </li>
+        <li>English Four Skills (2018)</li>
 
-        <li>
-          Introduction to Social Sciences
-        </li>
+        <li>Introduction to Social Sciences</li>
 
-        <li>
-          Diversity and Inclusion in the Workplace
-        </li>
+        <li>Diversity and Inclusion in the Workplace</li>
 
-        <li>
-          Teaching Online
-        </li>
+        <li>Teaching Online</li>
 
-        <li>
-          I-Office Computer (2019)
-        </li>
+        <li>I-Office Computer (2019)</li>
 
         <li>
           Google Digital Marketing &amp; E-Commerce (2025)
         </li>
 
-        <li>
-          Career Advancement (2024)
-        </li>
+        <li>Career Advancement (2024)</li>
 
         <li>
           Mastering E-Learning Designs for Modern Educators (2025)
@@ -514,14 +532,14 @@
       </ul>
 
 
-      <!-- VOLUNTEER EXPERIENCE -->
+      <!-- Volunteer Experience -->
 
       <h3 class="section-title-side">
         <i class="fa-solid fa-hands-helping"></i>
         Volunteer Experience
       </h3>
 
-      <ul>
+      <ul class="small-text">
 
         <li>
           <strong>Volunteer English Teacher:</strong>
@@ -534,7 +552,7 @@
         </li>
 
         <li>
-          <strong>Volunteer ESL Instructor (Four Skills):</strong>
+          <strong>Volunteer ESL Instructor:</strong>
           Poy English Program, Myanmar (2025)
         </li>
 
@@ -548,22 +566,21 @@
     </aside>
 
 
-    <!-- =========================
-         RIGHT MAIN CONTENT
-         ========================= -->
+    <!-- ================================
+         MAIN CONTENT
+         ================================ -->
 
     <main class="main-content">
 
 
-      <!-- CAREER OBJECTIVE -->
+      <!-- Career Objective -->
 
       <h3 class="section-title-main">
         <i class="fa-solid fa-bullseye"></i>
         Career Objective
       </h3>
 
-      <p style="text-align: justify; color:#444;">
-
+      <p class="objective">
         Motivated and compassionate English educator with over four years
         of teaching experience in both onsite and online settings.
         Experienced in student-centered instruction, lesson planning,
@@ -573,11 +590,10 @@
         critical thinking skills. Passionate about continuous professional
         development and contributing positively to students' academic and
         personal growth.
-
       </p>
 
 
-      <!-- WORK EXPERIENCE -->
+      <!-- Work Experience -->
 
       <h3 class="section-title-main">
         <i class="fa-solid fa-briefcase"></i>
@@ -685,7 +701,7 @@
       </div>
 
 
-      <!-- EDUCATION -->
+      <!-- Education -->
 
       <h3 class="section-title-main">
         <i class="fa-solid fa-graduation-cap"></i>
@@ -701,7 +717,6 @@
 
         <div class="card-meta">
           Payap University, Chiang Mai, Thailand |
-          3rd Year |
           Expected Graduation: 2027
         </div>
 
@@ -716,8 +731,7 @@
 
         <div class="card-meta">
           National University of Zoland, Myanmar |
-          2025–Present |
-          Expected Graduation: July 2026
+          Completed July 2026
         </div>
 
       </div>
@@ -739,7 +753,8 @@
       <div class="card">
 
         <h4>
-          English (Upper Intermediate) &amp; I-Office Computer Certificate
+          English (Upper Intermediate) &amp;
+          I-Office Computer Certificate
         </h4>
 
         <div class="card-meta">
@@ -757,7 +772,7 @@
 
         <div class="card-meta">
           Hpa-An University, Myanmar |
-          2nd Year | 2018–2020
+          2nd Year, 2018–2020
         </div>
 
       </div>
@@ -777,7 +792,7 @@
       </div>
 
 
-      <!-- PORTFOLIO -->
+      <!-- Portfolio -->
 
       <h3 class="section-title-main">
         <i class="fa-solid fa-briefcase-clock"></i>
@@ -786,22 +801,18 @@
 
       <div class="card">
 
-        <p style="margin:0;">
-
-          <a
-            href="https://winmoe0.github.io/winmoe.portfolio/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            winmoe0.github.io/winmoe.portfolio/
-          </a>
-
-        </p>
+        <a
+          href="https://winmoe0.github.io/winmoe.portfolio/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          winmoe0.github.io/winmoe.portfolio/
+        </a>
 
       </div>
 
 
-      <!-- LINKEDIN -->
+      <!-- LinkedIn -->
 
       <h3 class="section-title-main">
         <i class="fa-brands fa-linkedin"></i>
@@ -810,39 +821,31 @@
 
       <div class="card">
 
-        <p style="margin:0;">
-
-          <a
-            href="https://www.linkedin.com/in/win-moe-73b006395"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            linkedin.com/in/win-moe-73b006395
-          </a>
-
-        </p>
+        <a
+          href="https://www.linkedin.com/in/win-moe-73b006395"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          linkedin.com/in/win-moe-73b006395
+        </a>
 
       </div>
 
 
-      <!-- REFERENCES -->
+      <!-- References -->
 
       <h3 class="section-title-main">
         <i class="fa-solid fa-file-signature"></i>
         References
       </h3>
 
-      <div
-        class="card"
-        style="border-left-color:#aaa;"
-      >
+      <div class="card" style="border-left-color:#aaa;">
 
         <p style="margin:0; color:#555; font-style:italic;">
           References available upon request.
         </p>
 
       </div>
-
 
     </main>
 
